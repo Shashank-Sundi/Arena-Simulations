@@ -1,0 +1,349 @@
+
+                                      ARENA Simulation Results
+                                  Shashank Sundi - License: STUDENT
+
+                                  Summary for Replication 1 of 5
+
+Project: Drilling Process model                                      Run execution date : 1/20/2022
+Analyst: Shashank Sundi                                              Model revision date: 1/20/2022
+
+Replication ended at time      : 480.0 Minutes (Wednesday, January 19, 2022, 00:38:10)
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Tally 1                                         --         --         --         --          0
+Parts.VATime                                6.7029     (Insuf)    3.6351     11.127         75    
+Parts.NVATime                               4.5000     (Insuf)    4.5000     4.5000         75    
+Parts.WaitTime                              3.0058     (Insuf)    .00000     11.502         75    
+Parts.TranTime                              .00000     (Insuf)    .00000     .00000         75    
+Parts.OtherTime                             .00000     (Insuf)    .00000     .00000         75    
+Parts.TotalTime                             14.208     (Insuf)    8.8730     23.335         75    
+Washing.Queue.WaitingTime                   .57284     (Insuf)    .00000     3.3773         76    
+Drilling Process.Queue.WaitingTime          2.3934     (Insuf)    .00000     10.217         76    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Parts.WIP                                   2.2271     (Insuf)    .00000     7.0000     1.0000    
+Part Washer.NumberBusy                      .52224     (Insuf)    .00000     1.0000     1.0000    
+Part Washer.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Part Washer.Utilization                     .52224     (Insuf)    .00000     1.0000     1.0000    
+Drill Machine.NumberBusy                    .53209     (Insuf)    .00000     1.0000     .00000    
+Drill Machine.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Drill Machine.Utilization                   .53209     (Insuf)    .00000     1.0000     .00000    
+Washing.Queue.NumberInQueue                 .09070     (Insuf)    .00000     2.0000     .00000    
+Drilling Process.Queue.NumberInQueue        .37896     (Insuf)    .00000     4.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Rejected                                         19  Infinite
+Accept                                            0  Infinite
+Accepted                                         56  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Parts.NumberIn                              76.000    
+Parts.NumberOut                             75.000    
+Part Washer.NumberSeized                    76.000    
+Part Washer.ScheduledUtilization            .52224    
+Drill Machine.NumberSeized                  76.000    
+Drill Machine.ScheduledUtilization          .53209    
+System.NumberOut                            75.000    
+
+Beginning replication 2 of 5
+
+                                      ARENA Simulation Results
+                                  Shashank Sundi - License: STUDENT
+
+                                  Summary for Replication 2 of 5
+
+Project: Drilling Process model                                      Run execution date : 1/20/2022
+Analyst: Shashank Sundi                                              Model revision date: 1/20/2022
+
+Replication ended at time      : 480.0 Minutes (Wednesday, January 19, 2022, 00:38:10)
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Tally 1                                         --         --         --         --          0
+Parts.VATime                                6.6354     (Insuf)    3.2700     10.036         81    
+Parts.NVATime                               4.5000     (Insuf)    4.5000     4.5000         81    
+Parts.WaitTime                              2.4533     (Insuf)    .00000     11.022         81    
+Parts.TranTime                              .00000     (Insuf)    .00000     .00000         81    
+Parts.OtherTime                             .00000     (Insuf)    .00000     .00000         81    
+Parts.TotalTime                             13.588     (Insuf)    7.8986     23.663         81    
+Washing.Queue.WaitingTime                   .64422     (Insuf)    .00000     4.1772         83    
+Drilling Process.Queue.WaitingTime          1.7399     (Insuf)    .00000     9.6936         84    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Parts.WIP                                   2.3310     (Insuf)    .00000     7.0000     3.0000    
+Part Washer.NumberBusy                      .56864     (Insuf)    .00000     1.0000     1.0000    
+Part Washer.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Part Washer.Utilization                     .56864     (Insuf)    .00000     1.0000     1.0000    
+Drill Machine.NumberBusy                    .58001     (Insuf)    .00000     1.0000     .00000    
+Drill Machine.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Drill Machine.Utilization                   .58001     (Insuf)    .00000     1.0000     .00000    
+Washing.Queue.NumberInQueue                 .11171     (Insuf)    .00000     2.0000     1.0000    
+Drilling Process.Queue.NumberInQueue        .30450     (Insuf)    .00000     3.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Rejected                                         18  Infinite
+Accept                                            0  Infinite
+Accepted                                         63  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Parts.NumberIn                              84.000    
+Parts.NumberOut                             81.000    
+Part Washer.NumberSeized                    83.000    
+Part Washer.ScheduledUtilization            .56864    
+Drill Machine.NumberSeized                  84.000    
+Drill Machine.ScheduledUtilization          .58001    
+System.NumberOut                            81.000    
+
+Beginning replication 3 of 5
+
+                                      ARENA Simulation Results
+                                  Shashank Sundi - License: STUDENT
+
+                                  Summary for Replication 3 of 5
+
+Project: Drilling Process model                                      Run execution date : 1/20/2022
+Analyst: Shashank Sundi                                              Model revision date: 1/20/2022
+
+Replication ended at time      : 480.0 Minutes (Wednesday, January 19, 2022, 00:38:10)
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Tally 1                                         --         --         --         --          0
+Parts.VATime                                6.6842     (Insuf)    3.2210     11.203        104    
+Parts.NVATime                               4.5000     (Insuf)    4.5000     4.5000        104    
+Parts.WaitTime                              6.0969     (Insuf)    .00000     23.736        104    
+Parts.TranTime                              .00000     (Insuf)    .00000     .00000        104    
+Parts.OtherTime                             .00000     (Insuf)    .00000     .00000        104    
+Parts.TotalTime                             17.281     (Insuf)    8.9904     37.449        104    
+Washing.Queue.WaitingTime                   1.1537     (Insuf)    .00000     9.0331        105    
+Drilling Process.Queue.WaitingTime          5.0260     (Insuf)    .00000     23.736        107    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Parts.WIP                                   3.8649     (Insuf)    .00000     10.000     6.0000    
+Part Washer.NumberBusy                      .72682     (Insuf)    .00000     1.0000     1.0000    
+Part Washer.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Part Washer.Utilization                     .72682     (Insuf)    .00000     1.0000     1.0000    
+Drill Machine.NumberBusy                    .74900     (Insuf)    .00000     1.0000     1.0000    
+Drill Machine.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Drill Machine.Utilization                   .74900     (Insuf)    .00000     1.0000     1.0000    
+Washing.Queue.NumberInQueue                 .25547     (Insuf)    .00000     3.0000     1.0000    
+Drilling Process.Queue.NumberInQueue        1.1586     (Insuf)    .00000     7.0000     3.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Rejected                                         23  Infinite
+Accept                                            0  Infinite
+Accepted                                         81  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Parts.NumberIn                              110.00    
+Parts.NumberOut                             104.00    
+Part Washer.NumberSeized                    105.00    
+Part Washer.ScheduledUtilization            .72682    
+Drill Machine.NumberSeized                  107.00    
+Drill Machine.ScheduledUtilization          .74900    
+System.NumberOut                            104.00    
+
+Beginning replication 4 of 5
+
+                                      ARENA Simulation Results
+                                  Shashank Sundi - License: STUDENT
+
+                                  Summary for Replication 4 of 5
+
+Project: Drilling Process model                                      Run execution date : 1/20/2022
+Analyst: Shashank Sundi                                              Model revision date: 1/20/2022
+
+Replication ended at time      : 480.0 Minutes (Wednesday, January 19, 2022, 00:38:10)
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Tally 1                                         --         --         --         --          0
+Parts.VATime                                6.6236     (Insuf)    3.8756     10.184        108    
+Parts.NVATime                               4.5000     (Insuf)    4.5000     4.5000        108    
+Parts.WaitTime                              4.8105     (Insuf)    .00000     16.885        108    
+Parts.TranTime                              .00000     (Insuf)    .00000     .00000        108    
+Parts.OtherTime                             .00000     (Insuf)    .00000     .00000        108    
+Parts.TotalTime                             15.934     (Insuf)    9.3074     29.693        108    
+Washing.Queue.WaitingTime                   1.2900     (Insuf)    .00000     9.4794        109    
+Drilling Process.Queue.WaitingTime          3.6381     (Insuf)    .00000     12.838        111    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Parts.WIP                                   3.7117     (Insuf)    .00000     8.0000     6.0000    
+Part Washer.NumberBusy                      .73333     (Insuf)    .00000     1.0000     1.0000    
+Part Washer.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Part Washer.Utilization                     .73333     (Insuf)    .00000     1.0000     1.0000    
+Drill Machine.NumberBusy                    .78595     (Insuf)    .00000     1.0000     1.0000    
+Drill Machine.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Drill Machine.Utilization                   .78595     (Insuf)    .00000     1.0000     1.0000    
+Washing.Queue.NumberInQueue                 .29716     (Insuf)    .00000     3.0000     1.0000    
+Drilling Process.Queue.NumberInQueue        .88282     (Insuf)    .00000     5.0000     3.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Rejected                                         31  Infinite
+Accept                                            0  Infinite
+Accepted                                         77  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Parts.NumberIn                              114.00    
+Parts.NumberOut                             108.00    
+Part Washer.NumberSeized                    109.00    
+Part Washer.ScheduledUtilization            .73333    
+Drill Machine.NumberSeized                  111.00    
+Drill Machine.ScheduledUtilization          .78595    
+System.NumberOut                            108.00    
+
+Beginning replication 5 of 5
+
+                                      ARENA Simulation Results
+                                  Shashank Sundi - License: STUDENT
+
+                                  Summary for Replication 5 of 5
+
+Project: Drilling Process model                                      Run execution date : 1/20/2022
+Analyst: Shashank Sundi                                              Model revision date: 1/20/2022
+
+Replication ended at time      : 480.0 Minutes (Wednesday, January 19, 2022, 00:38:10)
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Tally 1                                         --         --         --         --          0
+Parts.VATime                                6.4796     (Insuf)    2.9614     10.107        104    
+Parts.NVATime                               4.5000     (Insuf)    4.5000     4.5000        104    
+Parts.WaitTime                              3.3604     (Insuf)    .00000     15.193        104    
+Parts.TranTime                              .00000     (Insuf)    .00000     .00000        104    
+Parts.OtherTime                             .00000     (Insuf)    .00000     .00000        104    
+Parts.TotalTime                             14.340     (Insuf)    8.2671     23.658        104    
+Washing.Queue.WaitingTime                   1.1364     (Insuf)    .00000     6.9545        106    
+Drilling Process.Queue.WaitingTime          2.1631     (Insuf)    .00000     11.440        106    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Parts.WIP                                   3.1372     (Insuf)    .00000     8.0000     2.0000    
+Part Washer.NumberBusy                      .74017     (Insuf)    .00000     1.0000     1.0000    
+Part Washer.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Part Washer.Utilization                     .74017     (Insuf)    .00000     1.0000     1.0000    
+Drill Machine.NumberBusy                    .69135     (Insuf)    .00000     1.0000     .00000    
+Drill Machine.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Drill Machine.Utilization                   .69135     (Insuf)    .00000     1.0000     .00000    
+Washing.Queue.NumberInQueue                 .25097     (Insuf)    .00000     3.0000     .00000    
+Drilling Process.Queue.NumberInQueue        .47769     (Insuf)    .00000     4.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Rejected                                         21  Infinite
+Accept                                            0  Infinite
+Accepted                                         83  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Parts.NumberIn                              106.00    
+Parts.NumberOut                             104.00    
+Part Washer.NumberSeized                    106.00    
+Part Washer.ScheduledUtilization            .74017    
+Drill Machine.NumberSeized                  106.00    
+Drill Machine.ScheduledUtilization          .69135    
+System.NumberOut                            104.00    
+
+
+                                      ARENA Simulation Results
+                                  Shashank Sundi - License: STUDENT
+
+                                  Output Summary for 5 Replications
+
+Project: Drilling Process model                                      Run execution date : 1/20/2022
+Analyst: Shashank Sundi                                              Model revision date: 1/20/2022
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Parts.NumberIn                              98.000     20.995     76.000     114.00     5
+Parts.NumberOut                             94.400     18.880     75.000     108.00     5
+Part Washer.NumberSeized                    95.800     18.815     76.000     109.00     5
+Part Washer.ScheduledUtilization            .65824     .12958     .52224     .74017     5
+Drill Machine.NumberSeized                  96.800     19.499     76.000     111.00     5
+Drill Machine.ScheduledUtilization          .66768     .13490     .53209     .78595     5
+System.NumberOut                            94.400     18.880     75.000     108.00     5
+
+Simulation run time: 0.03 minutes.
+Simulation run complete.

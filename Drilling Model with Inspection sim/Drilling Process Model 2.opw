@@ -1,0 +1,12 @@
+[RESOURCES]
+Part Washer
+Drill Machine
+[VARIABLES]
+Washing.NumberIn
+Inspection.NumberOut False
+Drilling Process.NumberIn
+Drilling Process.NumberOut
+Washing.NumberOut
+Inspection.NumberOut True
+Create Part Arrival.NumberOut
+Part Leaves the System.NumberOut
