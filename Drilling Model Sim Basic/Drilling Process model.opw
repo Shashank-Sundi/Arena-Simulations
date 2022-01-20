@@ -1,0 +1,7 @@
+[RESOURCES]
+Drill Machine
+[VARIABLES]
+Drilling Process.NumberIn
+Drilling Process.NumberOut
+Create Part Arrival.NumberOut
+Part Leaves the System.NumberOut
