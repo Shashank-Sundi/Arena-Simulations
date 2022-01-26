@@ -1,0 +1,92 @@
+
+                                      ARENA Simulation Results
+                                  Shashank Sundi - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Electronic Component Asssembly                              Run execution date : 1/27/2022
+Analyst: Shashank Sundi                                              Model revision date: 1/27/2022
+
+Replication ended at time      : 1920.0 Minutes (Friday, January 28, 2022, 08:30:14)
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Part B Prep Process.VATimePerEntity         5.8260     (Insuf)    3.2093     9.5933        264    
+Part A Prep Process.VATimePerEntity         4.1794     .12363     1.2215     7.7586        427    
+Sealer Process.TotalTimePerEntity           6.8461     (Corr)     .85974     16.618        691    
+Rework Process.WaitTimePerEntity            578.38     (Insuf)    .00000     1242.8         37    
+Part B Prep Process.TotalTimePerEntity      36.871     (Insuf)    4.1005     107.21        264    
+Part A Prep Process.TotalTimePerEntity      18.227     (Corr)     2.1278     48.267        427    
+Sealer Process.WaitTimePerEntity            4.3281     (Corr)     .00000     14.255        691    
+Record Scrapped Parts                       569.20     (Insuf)    108.47     1248.7         11    
+Rework Process.TotalTimePerEntity           628.76     (Insuf)    92.669     1272.4         37    
+Part B Prep Process.WaitTimePerEntity       31.045     (Insuf)    .00000     100.72        264    
+Part A Prep Process.WaitTimePerEntity       14.048     (Corr)     .00000     44.605        427    
+Rework Process.VATimePerEntity              50.380     (Insuf)    2.7310     165.44         37    
+Sealer Process.VATimePerEntity              2.5179     .04487     .72527     3.9214        691    
+Record Salvaged Parts                       707.63     (Insuf)    100.09     1297.1         26    
+Record Shipped Parts                        31.929     (Corr)     4.3980     119.46        618    
+Sealer Process.Queue.WaitingTime            4.3281     (Corr)     .00000     14.255        691    
+Part B Prep Process.Queue.WaitingTime       31.045     (Insuf)    .00000     100.72        264    
+Part A Prep Process.Queue.WaitingTime       14.015     (Corr)     .00000     44.605        428    
+Rework Process.Queue.WaitingTime            596.58     (Insuf)    .00000     1270.1         38    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Rework.NumberBusy                           .99613     (Insuf)    .00000     1.0000     1.0000    
+Rework.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Rework.Utilization                          .99613     (Insuf)    .00000     1.0000     1.0000    
+Part B Prep.NumberBusy                      .80108     (Insuf)    .00000     1.0000     .00000    
+Part B Prep.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Part B Prep.Utilization                     .80108     (Insuf)    .00000     1.0000     .00000    
+Part A Prep.NumberBusy                      .93041     (Insuf)    .00000     1.0000     1.0000    
+Part A Prep.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Part A Prep.Utilization                     .93041     (Insuf)    .00000     1.0000     1.0000    
+Sealer.NumberBusy                           .90619     (Insuf)    .00000     1.0000     .00000    
+Sealer.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Sealer.Utilization                          .90619     (Insuf)    .00000     1.0000     .00000    
+Sealer Process.Queue.NumberInQueue          1.5576     (Corr)     .00000     6.0000     .00000    
+Part B Prep Process.Queue.NumberInQueue     4.2687     (Insuf)    .00000     19.000     .00000    
+Part A Prep Process.Queue.NumberInQueue     3.1250     (Corr)     .00000     10.000     2.0000    
+Rework Process.Queue.NumberInQueue          25.397     (Insuf)    .00000     38.000     35.000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Sealer Process Number In                    691.00    
+Sealer Process Number Out                   691.00    
+Rework Process Accum Wait Time              21400.    
+Sealer Process Accum Wait Time              2990.7    
+Part B Prep Process Accum Wait Time         8195.9    
+Part A Prep Process Accum Wait Time         5998.6    
+Rework Process Number In                    73.000    
+Rework Process Number Out                   37.000    
+Rework Process Accum VA Time                1864.0    
+Part B Prep Process Number Out              264.00    
+Part A Prep Process Number Out              427.00    
+Part B Prep Process Number In               264.00    
+Part A Prep Process Number In               430.00    
+Part B Prep Process Accum VA Time           1538.0    
+Part A Prep Process Accum VA Time           1784.6    
+Sealer Process Accum VA Time                1739.8    
+Rework.NumberSeized                         38.000    
+Rework.ScheduledUtilization                 .99613    
+Part B Prep.NumberSeized                    264.00    
+Part B Prep.ScheduledUtilization            .80108    
+Part A Prep.NumberSeized                    428.00    
+Part A Prep.ScheduledUtilization            .93041    
+Sealer.NumberSeized                         691.00    
+Sealer.ScheduledUtilization                 .90619    
+
+
+Simulation run time: 0.05 minutes.
+Simulation run complete.
