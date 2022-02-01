@@ -1,0 +1,67 @@
+SIMAN Run Controller.
+
+821.11257 Hours>
+                                      ARENA Simulation Results
+                                  Shashank Sundi - License: STUDENT
+
+                                  Summary for Replication 1 of 10
+
+Project: Automated Machine Processing                                Run execution date : 1/31/2022
+Analyst: Shashank Sundi                                              Model revision date: 1/31/2022
+
+Replication ended at time      : 821.11257 Hours (Wednesday, March 02, 2022, 16:26:32)
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Preprocessing by Human Operator.VATimePerE  6.2082     (Insuf)    3.1683     7.7844        125    
+Automated Machine Processing.WaitTimePerEn  1.4188     (Insuf)    .00000     6.4330        124    
+Automated Machine Processing.TotalTimePerE  7.4544     (Insuf)    4.2815     13.558        124    
+Preprocessing by Human Operator.WaitTimePe  2.1051     (Insuf)    .00000     7.7844        125    
+Average total time in system                24.795     (Insuf)    11.233     53.726        124    
+Automated Machine Processing.VATimePerEnti  6.0355     (Insuf)    4.2646     7.8659        124    
+Preprocessing by Human Operator.TotalTimeP  8.3134     (Insuf)    3.1683     14.729        125    
+Queue for Part 2.Queue.WaitingTime              --         --         --         --          0
+Automated Machine Processing.Queue.Waiting  1.4379     (Insuf)    .00000     6.4330        125    
+Preprocessing by Human Operator.Queue.Wait  2.0884     (Insuf)    .00000     7.7844        126    
+Part 2 Queue.Queue.WaitingTime              13.980     (Insuf)    .00000     41.321         57    
+Part 1 Queue.Queue.WaitingTime              5.1584     (Insuf)    .00000     17.517         70    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Human Operator.NumberBusy                   .94973     (Insuf)    .00000     1.0000     1.0000    
+Human Operator.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Human Operator.Utilization                  .94973     (Insuf)    .00000     1.0000     1.0000    
+Automated Preprocessing Machine.NumberBusy  .91146     (Insuf)    .00000     1.0000     1.0000    
+Automated Preprocessing Machine.NumberSche  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Automated Preprocessing Machine.Utilizatio  .91146     (Insuf)    .00000     1.0000     1.0000    
+Queue for Part 2.Queue.NumberInQueue        .00000     (Insuf)    .00000     .00000     .00000    
+Automated Machine Processing.Queue.NumberI  .21890     (Insuf)    .00000     1.0000     .00000    
+Preprocessing by Human Operator.Queue.Numb  .32511     (Insuf)    .00000     1.0000     1.0000    
+Part 2 Queue.Queue.NumberInQueue            1.0163     (Insuf)    .00000     4.0000     3.0000    
+Part 1 Queue.Queue.NumberInQueue            .43975     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Preprocessing by Human Operator Number Out  125.00    
+Preprocessing by Human Operator Accum VA T  776.02    
+Automated Machine Processing Number Out     124.00    
+Automated Machine Processing Accum VA Time  748.41    
+Automated Machine Processing Number In      125.00    
+Preprocessing by Human Operator Accum Wait  263.14    
+Automated Machine Processing Accum Wait Ti  175.93    
+Preprocessing by Human Operator Number In   127.00    
+Human Operator.NumberSeized                 126.00    
+Human Operator.ScheduledUtilization         .94973    
+Automated Preprocessing Machine.NumberSeiz  125.00    
+Automated Preprocessing Machine.ScheduledU  .91146    
+

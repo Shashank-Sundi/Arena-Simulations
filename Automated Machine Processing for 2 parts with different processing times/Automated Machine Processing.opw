@@ -1,0 +1,15 @@
+[RESOURCES]
+Human Operator
+Automated Preprocessing Machine
+[VARIABLES]
+Preprocessing by Human Operator.NumberOut
+Parts Exit the System.NumberOut
+Preprocessing by Human Operator.VATime
+Automated Machine Processing.NumberOut
+Automated Machine Processing.VATime
+Automated Machine Processing.NumberIn
+Preprocessing by Human Operator.WaitTime
+Part Type 2.NumberOut
+Part Type 1.NumberOut
+Automated Machine Processing.WaitTime
+Preprocessing by Human Operator.NumberIn
