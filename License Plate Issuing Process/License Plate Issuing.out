@@ -1,0 +1,97 @@
+SIMAN Run Controller.
+
+1028.7716 Minutes>
+                                      ARENA Simulation Results
+                                  Shashank Sundi - License: STUDENT
+
+                                  Summary for Replication 1 of 5
+
+Project: Licence Plate Issuing Process                               Run execution date : 1/31/2022
+Analyst: Shashank Sundi                                              Model revision date: 1/31/2022
+
+Replication ended at time      : 1028.7716 Minutes (Friday, January 28, 2022, 17:08:28)
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Form Processing and Payment to Clerk1.VATi  8.9655     (Insuf)    8.0061     9.9947         87    
+Form Processing and Payment to Clerk3.Tota  8.9219     (Insuf)    8.1314     9.9973        106    
+Form Checking and Plate Issuing by Clerk4.  2.9903     (Insuf)    2.6521     3.3260        291    
+Form Processing and Payment to Clerk3.Wait  .00000     (Insuf)    .00000     .00000        106    
+Form Processing and Payment to Clerk2.Wait  .00000     (Insuf)    .00000     .00000         99    
+Form Checking and Plate Issuing by Clerk4.  .00000     (Insuf)    .00000     .00000        291    
+Form Processing and Payment to Clerk3.VATi  8.9219     (Insuf)    8.1314     9.9973        106    
+Average Time Taken by a Customer            32.639     (Insuf)    10.860     77.054        291    
+Form Processing and Payment to Clerk2.Tota  9.0332     (Insuf)    8.0028     9.9958         99    
+Form Processing and Payment to Clerk1.Wait  .00000     (Insuf)    .00000     .00000         87    
+Form Checking and Plate Issuing by Clerk4.  2.9903     (Insuf)    2.6521     3.3260        291    
+Form Processing and Payment to Clerk2.VATi  9.0332     (Insuf)    8.0028     9.9958         99    
+Form Processing and Payment to Clerk1.Tota  8.9655     (Insuf)    8.0061     9.9947         87    
+Merged Queue.Queue.WaitingTime              1.3482     (Insuf)    .00000     5.8589        292    
+Form Checking and Plate Issuing by Clerk4.  .00000     (Insuf)    .00000     .00000        291    
+Type3 Queue.Queue.WaitingTime               22.227     (Insuf)    .00000     65.631        107    
+Type1 Queue.Queue.WaitingTime               11.855     (Insuf)    .00000     53.809         88    
+Type2 Queue.Queue.WaitingTime               22.998     (Insuf)    .00000     58.805        100    
+Form Processing and Payment to Clerk3.Queu  .00000     (Insuf)    .00000     .00000        107    
+Form Processing and Payment to Clerk2.Queu  .00000     (Insuf)    .00000     .00000        100    
+Form Processing and Payment to Clerk1.Queu  .00000     (Insuf)    .00000     .00000         88    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Clerk 4.NumberBusy                          .84585     (Insuf)    .00000     1.0000     .00000    
+Clerk 4.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Clerk 4.Utilization                         .84585     (Insuf)    .00000     1.0000     .00000    
+Clerk 1.NumberBusy                          .76459     (Insuf)    .00000     1.0000     1.0000    
+Clerk 1.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Clerk 1.Utilization                         .76459     (Insuf)    .00000     1.0000     1.0000    
+Clerk 2.NumberBusy                          .87417     (Insuf)    .00000     1.0000     1.0000    
+Clerk 2.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Clerk 2.Utilization                         .87417     (Insuf)    .00000     1.0000     1.0000    
+Clerk 3.NumberBusy                          .92303     (Insuf)    .00000     1.0000     1.0000    
+Clerk 3.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Clerk 3.Utilization                         .92303     (Insuf)    .00000     1.0000     1.0000    
+Merged Queue.Queue.NumberInQueue            .38267     (Corr)     .00000     3.0000     .00000    
+Form Checking and Plate Issuing by Clerk4.  .00000     (Insuf)    .00000     .00000     .00000    
+Type3 Queue.Queue.NumberInQueue             2.3306     (Insuf)    .00000     8.0000     4.0000    
+Type1 Queue.Queue.NumberInQueue             1.1776     (Insuf)    .00000     7.0000     5.0000    
+Type2 Queue.Queue.NumberInQueue             2.2355     (Insuf)    .00000     7.0000     .00000    
+Form Processing and Payment to Clerk3.Queu  .00000     (Insuf)    .00000     .00000     .00000    
+Form Processing and Payment to Clerk2.Queu  .00000     (Insuf)    .00000     .00000     .00000    
+Form Processing and Payment to Clerk1.Queu  .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Form Processing and Payment to Clerk3 Numb  106.00    
+Form Processing and Payment to Clerk2 Numb  99.000    
+Form Processing and Payment to Clerk1 Numb  87.000    
+Form Processing and Payment to Clerk3 Numb  107.00    
+Form Processing and Payment to Clerk2 Numb  100.00    
+Form Processing and Payment to Clerk1 Numb  88.000    
+Form Checking and Plate Issuing by Clerk4   870.18    
+Form Checking and Plate Issuing by Clerk4   .00000    
+Form Processing and Payment to Clerk3 Accu  .00000    
+Form Processing and Payment to Clerk2 Accu  .00000    
+Form Processing and Payment to Clerk1 Accu  .00000    
+Form Processing and Payment to Clerk3 Accu  945.72    
+Form Processing and Payment to Clerk2 Accu  894.29    
+Form Processing and Payment to Clerk1 Accu  779.99    
+Form Checking and Plate Issuing by Clerk4   291.00    
+Form Checking and Plate Issuing by Clerk4   291.00    
+Clerk 4.NumberSeized                        291.00    
+Clerk 4.ScheduledUtilization                .84585    
+Clerk 1.NumberSeized                        88.000    
+Clerk 1.ScheduledUtilization                .76459    
+Clerk 2.NumberSeized                        100.00    
+Clerk 2.ScheduledUtilization                .87417    
+Clerk 3.NumberSeized                        107.00    
+Clerk 3.ScheduledUtilization                .92303    
+

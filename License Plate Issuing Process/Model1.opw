@@ -1,0 +1,11 @@
+[RESOURCES]
+Clerk 4
+[VARIABLES]
+Form Processing and Payment to Clerk1.NumberOut
+Form Processing and Payment to Clerk1.NumberIn
+Dispose 1.NumberOut
+Customer Type 1 Enters.NumberOut
+Customer Type 2 Enters.NumberOut
+Customer Type 3 Enters.NumberOut
+Form Checking and Plate Issuing by Clerk4.NumberIn
+Form Checking and Plate Issuing by Clerk4.NumberOut

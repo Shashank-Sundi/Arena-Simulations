@@ -1,0 +1,26 @@
+[RESOURCES]
+Clerk 4
+Clerk 1
+Clerk 2
+Clerk 3
+[VARIABLES]
+Form Processing and Payment to Clerk1.NumberOut
+Form Processing and Payment to Clerk2.NumberOut
+Form Processing and Payment to Clerk3.NumberOut
+Form Processing and Payment to Clerk1.NumberIn
+Form Processing and Payment to Clerk2.NumberIn
+Form Processing and Payment to Clerk3.NumberIn
+Form Checking and Plate Issuing by Clerk4.VATime
+Form Checking and Plate Issuing by Clerk4.WaitTime
+Form Processing and Payment to Clerk1.WaitTime
+Form Processing and Payment to Clerk2.WaitTime
+Form Processing and Payment to Clerk3.WaitTime
+Form Processing and Payment to Clerk1.VATime
+Form Processing and Payment to Clerk2.VATime
+Form Processing and Payment to Clerk3.VATime
+Customer Type 2 Enters.NumberOut
+Customer Type 3 Enters.NumberOut
+Customer Type 1 Enters.NumberOut
+Form Checking and Plate Issuing by Clerk4.NumberIn
+Form Checking and Plate Issuing by Clerk4.NumberOut
+Dispose 3.NumberOut
