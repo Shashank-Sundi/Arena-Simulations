@@ -1,0 +1,25 @@
+[RESOURCES]
+Receptionist
+Nurse
+Doctor
+[VARIABLES]
+Leave Facility.NumberOut
+Reception Office.WaitTime
+Checkout.WaitTime
+Triage.NumberOut
+Triage.NumberIn
+Patient Arrives.NumberOut
+Checkout.NumberOut
+Checkout.NumberIn
+Reception Office.NumberIn
+Reception Office.NumberOut
+Reception Office.VATime
+Treatment By Doctor.NumberIn
+Treatment By Doctor.VATime
+Checkout.VATime
+Treatment By Doctor.NumberOut
+Triage.VATime
+Treatment By Doctor.WaitTime
+Triage.WaitTime
+Is the Patient Critical.NumberOut True
+Is the Patient Critical.NumberOut False

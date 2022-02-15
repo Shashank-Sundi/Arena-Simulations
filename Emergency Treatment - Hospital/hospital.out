@@ -1,0 +1,116 @@
+
+                                      ARENA Simulation Results
+                                  Shashank Sundi - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Emergency Treatment in Hospital                             Run execution date : 2/15/2022
+Analyst: Shashank Sundi                                              Model revision date: 2/15/2022
+
+Replication ended at time      : 24.0 Hours (Saturday, February 05, 2022, 13:36:03)
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Treatment By Doctor.WaitTimePerEntity       1.3963     (Insuf)    .00000     4.5080         37    
+Reception Office.WaitTimePerEntity          3.3961     (Insuf)    .00000     5.5044        111    
+Sojourn Time                                    --         --         --         --          0
+Treatment By Doctor.TotalTimePerEntity      1.7364     (Insuf)    .17202     4.9378         37    
+Checkout.WaitTimePerEntity                  2.7332     (Insuf)    .18200     5.4811         29    
+Patient Arrival Time                        6.7839     (Insuf)    1.1450     14.964         29    
+Triage.TotalTimePerEntity                   1.9792     (Insuf)    .06973     5.0340         84    
+Checkout.VATimePerEntity                    .24893     (Insuf)    .16721     .33311         29    
+Reception Office.VATimePerEntity            .14946     (Insuf)    .10052     .19719        111    
+Reception Office.TotalTimePerEntity         3.5455     (Insuf)    .11572     5.6514        111    
+Treatment By Doctor.VATimePerEntity         .34012     (Insuf)    .09780     .49963         37    
+Triage.VATimePerEntity                      .13150     (Insuf)    .05454     .22559         84    
+Checkout.TotalTimePerEntity                 2.9821     (Insuf)    .51490     5.6483         29    
+Triage.WaitTimePerEntity                    1.8477     (Insuf)    .00000     4.9178         84    
+Patients.VATime                             .85171     (Insuf)    .51458     1.1098         29    
+Patients.NVATime                            .00000     (Insuf)    .00000     .00000         29    
+Patients.WaitTime                           5.8917     (Insuf)    .18200     14.013         29    
+Patients.TranTime                           .00000     (Insuf)    .00000     .00000         29    
+Patients.OtherTime                          .04040     (Insuf)    .00000     .19442         29    
+Patients.TotalTime                          6.7839     (Insuf)    1.1450     14.964         29    
+Waiting Room.Queue.WaitingTime              .01101     (Insuf)    .00000     .09836         45    
+Checkout.Queue.WaitingTime                  2.8276     (Insuf)    .18200     5.5664         30    
+Reception Office.Queue.WaitingTime          3.3961     (Insuf)    .00000     5.5044        111    
+Triage.Queue.WaitingTime                    1.8477     (Insuf)    .00000     4.9178         84    
+Treatment By Doctor.Queue.WaitingTime       1.4890     (Insuf)    .00000     4.9183         38    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Patients.WIP                                54.654     (Insuf)    .00000     116.00     116.00    
+Receptionist.NumberBusy                     .99791     (Insuf)    .00000     1.0000     1.0000    
+Receptionist.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Receptionist.Utilization                    .99791     (Insuf)    .00000     1.0000     1.0000    
+Nurse.NumberBusy                            .25786     (Insuf)    .00000     1.0000     .00000    
+Nurse.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Nurse.Utilization                           .25786     (Insuf)    .00000     1.0000     .00000    
+Doctor.NumberBusy                           .99036     (Insuf)    .00000     1.0000     1.0000    
+Doctor.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Doctor.Utilization                          .99036     (Insuf)    .00000     1.0000     1.0000    
+Waiting Room.Queue.NumberInQueue            .02065     (Insuf)    .00000     1.0000     .00000    
+Checkout.Queue.NumberInQueue                4.2470     (Insuf)    .00000     8.0000     7.0000    
+Reception Office.Queue.NumberInQueue        19.803     (Insuf)    .00000     35.000     34.000    
+Triage.Queue.NumberInQueue                  9.2500     (Insuf)    .00000     27.000     27.000    
+Treatment By Doctor.Queue.NumberInQueue     19.087     (Insuf)    .00000     46.000     46.000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Patients Departure                               29  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reception Office Accum Wait Time            376.96    
+Checkout Accum Wait Time                    79.263    
+Triage Number Out                           84.000    
+Patient Daily Throughput                    14.500    
+Triage Number In                            111.00    
+Checkout Number Out                         29.000    
+Checkout Number In                          37.000    
+Reception Office Number In                  145.00    
+Reception Office Number Out                 111.00    
+Reception Office Accum VA Time              16.590    
+Treatment By Doctor Number In               84.000    
+Treatment By Doctor Accum VA Time           12.584    
+Checkout Accum VA Time                      7.2188    
+Treatment By Doctor Number Out              37.000    
+Triage Accum VA Time                        11.046    
+Treatment By Doctor Accum Wait Time         51.665    
+Triage Accum Wait Time                      155.20    
+Patients.NumberIn                           145.00    
+Patients.NumberOut                          29.000    
+Receptionist.NumberSeized                   141.00    
+Receptionist.ScheduledUtilization           .99791    
+Nurse.NumberSeized                          45.000    
+Nurse.ScheduledUtilization                  .25786    
+Doctor.NumberSeized                         122.00    
+Doctor.ScheduledUtilization                 .99036    
+System.NumberOut                            29.000    
+
+                                           FREQUENCIES
+
+                                                            --Occurrences--    Standard  Restricted
+Identifier                                 Category         Number  AvgTime    Percent   Percent
+___________________________________________________________________________________________________
+
+Distribution Of Doctors                    0 Doctors        2       .11569        0.96      0.96
+                                           1 Doctor         2       11.884       99.04     99.04
+
+
+
+Simulation run time: 0.02 minutes.
+Simulation run complete.
