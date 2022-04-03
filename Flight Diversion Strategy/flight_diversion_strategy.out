@@ -1,0 +1,1684 @@
+
+                                      ARENA Simulation Results
+                                  Shashank Sundi - License: STUDENT
+
+                                  Summary for Replication 1 of 30
+
+Project: Delhi Flight Diversion Strategy                             Run execution date : 4/ 1/2022
+Analyst: Shashank Sundi                                              Model revision date: 4/ 1/2022
+
+Replication ended at time      : 24.0 Hours (Sunday, March 27, 2022, 21:06:38)
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Departure from Jaipur.VATimePerEntity       .04801     (Insuf)    .02194     .07974         54    
+Runway Chandigarh.WaitTimePerEntity         .00601     (Insuf)    .00000     .05997         67    
+Runway 15 by 33.WaitTimePerEntity           .00397     (Insuf)    .00000     .03603         11    
+Departure from Chandigarh.VATimePerEntity   .04915     (Insuf)    .01936     .07457         47    
+Departure from Dehradun.WaitTimePerEntity   .00000     (Insuf)    .00000     .00000         47    
+Departure from Jaipur.TotalTimePerEntity    .04801     (Insuf)    .02194     .07974         54    
+Departure from Dehradun.TotalTimePerEntity  .04950     (Insuf)    .02544     .07350         47    
+Parking in Jaipur.WaitTimePerEntity         4.4156     (Insuf)    .00000     11.775         54    
+Parking in Jaipur.VATimePerEntity           .42639     (Insuf)    .35583     .49154         54    
+Parking in Chandigarh.WaitTimePerEntity     7.0267     (Insuf)    .00000     10.659         47    
+Parking in Jaipur.TotalTimePerEntity        4.8420     (Insuf)    .37609     12.238         54    
+Runway Chandigarh.TotalTimePerEntity        .05708     (Insuf)    .02140     .14117         67    
+Parking in Chandigarh.VATimePerEntity       .50821     (Insuf)    .37413     .64288         47    
+Parking in Chandigarh.TotalTimePerEntity    7.5349     (Insuf)    .57640     11.183         47    
+Runway 8 by 26.WaitTimePerEntity            .00498     (Insuf)    .00000     .05287         62    
+Runway 9 by 27.WaitTimePerEntity            .00000     (Insuf)    .00000     .00000         72    
+Parking in Dehra Dun.WaitTimePerEntity      4.1391     (Insuf)    .00000     6.9099         47    
+Runway 15 by 33.TotalTimePerEntity          .05571     (Insuf)    .02897     .08156         11    
+Parking in Dehra Dun.TotalTimePerEntity     4.6359     (Insuf)    .36489     7.4329         47    
+Departure from Chandigarh.WaitTimePerEntit  .00000     (Insuf)    .00000     .00000         47    
+Tally 1                                     4.4432     (Insuf)    .01844     13.226        249    
+Parking in Dehra Dun.VATimePerEntity        .49684     (Insuf)    .35234     .64278         47    
+Runway 8 by 26.VATimePerEntity              .05076     (Insuf)    .02441     .08110         62    
+Runway 9 by 27.VATimePerEntity              .04945     (Insuf)    .01844     .07636         72    
+Runway Chandigarh.VATimePerEntity           .05106     (Insuf)    .02140     .08161         67    
+Departure from Dehradun.VATimePerEntity     .04950     (Insuf)    .02544     .07350         47    
+Runway 8 by 26.TotalTimePerEntity           .05574     (Insuf)    .02752     .10943         62    
+Runway 9 by 27.TotalTimePerEntity           .04945     (Insuf)    .01844     .07636         72    
+Departure from Jaipur.WaitTimePerEntity     .00000     (Insuf)    .00000     .00000         54    
+Departure from Chandigarh.TotalTimePerEnti  .04915     (Insuf)    .01936     .07457         47    
+Runway 15 by 33.VATimePerEntity             .05173     (Insuf)    .02897     .07730         11    
+airplane.VATime                             .28689     (Insuf)    .00000     .74582        296    
+airplane.NVATime                            .00000     (Insuf)    .00000     .00000        296    
+airplane.WaitTime                           2.5812     (Insuf)    .00000     11.775        296    
+airplane.TranTime                           .00000     (Insuf)    .00000     .00000        296    
+airplane.OtherTime                          .00000     (Insuf)    .00000     .00000        296    
+airplane.TotalTime                          5.7361     (Insuf)    .45814     12.322        296    
+Runway 15 by 33.Queue.WaitingTime           .00397     (Insuf)    .00000     .03603         11    
+Parking in Chandigarh.Queue.WaitingTime     7.0875     (Insuf)    .00000     10.659         48    
+Parking in Jaipur.Queue.WaitingTime         4.5515     (Insuf)    .00000     11.893         55    
+Runway Clearance Wait Chandigarh.Queue.Wai  .00274     (Insuf)    .00000     .04701         47    
+Fly in Air till Parking and Runway is clea      --         --         --         --          0
+Departure from Jaipur.Queue.WaitingTime     .00000     (Insuf)    .00000     .00000         54    
+Runway 8 by 26.Queue.WaitingTime            .00498     (Insuf)    .00000     .05287         62    
+Runway 9 by 27.Queue.WaitingTime            .00000     (Insuf)    .00000     .00000         72    
+Runway Chandigarh.Queue.WaitingTime         .00601     (Insuf)    .00000     .05997         67    
+Runway Clearance wait Dehradun.Queue.Waiti  .00419     (Insuf)    .00000     .05724         47    
+Departure from Dehradun.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000         47    
+Runway Clearance Wait Jaipur.Queue.Waiting  .00000     (Insuf)    .00000     .00000         54    
+Parking in Dehra Dun.Queue.WaitingTime      4.1895     (Insuf)    .00000     6.9099         48    
+Departure from Chandigarh.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         47    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+airplane.WIP                                65.583     (Corr)     .00000     128.00     126.00    
+Runway 8by26.NumberBusy                     .22807     (Insuf)    .00000     1.0000     .00000    
+Runway 8by26.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Runway 8by26.Utilization                    .22807     (Insuf)    .00000     1.0000     .00000    
+Runway 9by27.NumberBusy                     .14836     (Insuf)    .00000     1.0000     .00000    
+Runway 9by27.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Runway 9by27.Utilization                    .14836     (Insuf)    .00000     1.0000     .00000    
+Parking Lot Chandigarh.NumberBusy           .99863     (Insuf)    .00000     1.0000     1.0000    
+Parking Lot Chandigarh.NumberScheduled      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Parking Lot Chandigarh.Utilization          .99863     (Insuf)    .00000     1.0000     1.0000    
+runway chandigarh.NumberBusy                .23880     (Insuf)    .00000     1.0000     .00000    
+runway chandigarh.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+runway chandigarh.Utilization               .23880     (Insuf)    .00000     1.0000     .00000    
+Runway 3by66 chandigarh.NumberBusy          .00000     (Insuf)    .00000     .00000     .00000    
+Runway 3by66 chandigarh.NumberScheduled     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Runway 3by66 chandigarh.Utilization         .00000     (Insuf)    .00000     .00000     .00000    
+Runway 15by33.NumberBusy                    .13174     (Insuf)    .00000     1.0000     .00000    
+Runway 15by33.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Runway 15by33.Utilization                   .13174     (Insuf)    .00000     1.0000     .00000    
+Parking Lot.NumberBusy                      .96364     (Insuf)    .00000     1.0000     1.0000    
+Parking Lot.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Parking Lot.Utilization                     .96364     (Insuf)    .00000     1.0000     1.0000    
+Parking Lot dehradun.NumberBusy             .98813     (Insuf)    .00000     1.0000     1.0000    
+Parking Lot dehradun.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Parking Lot dehradun.Utilization            .98813     (Insuf)    .00000     1.0000     1.0000    
+Runway 15 by 33.Queue.NumberInQueue         .00182     (Insuf)    .00000     1.0000     .00000    
+Parking in Chandigarh.Queue.NumberInQueue   18.321     (Insuf)    .00000     21.000     19.000    
+Parking in Jaipur.Queue.NumberInQueue       17.458     (Insuf)    .00000     29.000     28.000    
+Runway Clearance Wait Chandigarh.Queue.Num  .00538     (Insuf)    .00000     1.0000     .00000    
+Fly in Air till Parking and Runway is clea  15.820     (Insuf)    .00000     62.000     62.000    
+Departure from Jaipur.Queue.NumberInQueue   .00000     (Insuf)    .00000     .00000     .00000    
+Runway 8 by 26.Queue.NumberInQueue          .01286     (Insuf)    .00000     1.0000     .00000    
+Runway 9 by 27.Queue.NumberInQueue          .00000     (Insuf)    .00000     .00000     .00000    
+Runway Chandigarh.Queue.NumberInQueue       .01679     (Insuf)    .00000     1.0000     .00000    
+Runway Clearance wait Dehradun.Queue.Numbe  .00821     (Insuf)    .00000     1.0000     .00000    
+Departure from Dehradun.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Runway Clearance Wait Jaipur.Queue.NumberI  .00000     (Insuf)    .00000     .00000     .00000    
+Parking in Dehra Dun.Queue.NumberInQueue    10.239     (Insuf)    .00000     14.000     14.000    
+Departure from Chandigarh.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Counter 1                                       212  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Departure from Jaipur Accum Wait Time       .00000    
+Runway 15 by 33 Accum VA Time               .56908    
+Parking in Chandigarh Accum Wait Time       330.25    
+Runway Chandigarh Accum VA Time             3.4213    
+Runway 15 by 33 Number In                   11.000    
+Departure from Dehradun Accum Wait Time     .00000    
+Parking in Chandigarh Accum VA Time         23.885    
+Runway 15 by 33 Number Out                  11.000    
+Parking in Chandigarh Number In             67.000    
+Parking in Jaipur Number Out                54.000    
+Departure from Chandigarh Number Out        47.000    
+Parking in Chandigarh Number Out            47.000    
+Departure from Dehradun Number Out          47.000    
+Parking in Jaipur Number In                 83.000    
+Departure from Chandigarh Number In         47.000    
+Departure from Dehradun Number In           47.000    
+Parking in Dehra Dun Accum VA Time          23.351    
+Runway 8 by 26 Number Out                   62.000    
+Runway 9 by 27 Number Out                   72.000    
+Runway 8 by 26 Number In                    62.000    
+Runway 9 by 27 Number In                    72.000    
+Parking in Jaipur Accum VA Time             23.025    
+Parking in Dehra Dun Accum Wait Time        194.53    
+Parking in Dehra Dun Number Out             47.000    
+Departure from Chandigarh Accum Wait Time   .00000    
+Departure from Dehradun Accum VA Time       2.3264    
+Runway 8 by 26 Accum VA Time                3.1472    
+Runway 9 by 27 Accum VA Time                3.5605    
+Departure from Jaipur Number In             54.000    
+Runway Chandigarh Accum Wait Time           .40288    
+Departure from Jaipur Number Out            54.000    
+Runway 8 by 26 Accum Wait Time              .30860    
+Runway 9 by 27 Accum Wait Time              .00000    
+Departure from Jaipur Accum VA Time         2.5926    
+Runway 15 by 33 Accum Wait Time             .04369    
+Departure from Chandigarh Accum VA Time     2.3099    
+Parking in Dehra Dun Number In              62.000    
+Parking in Jaipur Accum Wait Time           238.44    
+Runway Chandigarh Number Out                67.000    
+Runway Chandigarh Number In                 67.000    
+airplane.NumberIn                           274.00    
+airplane.NumberOut                          148.00    
+Runway 8by26.NumberSeized                   109.00    
+Runway 8by26.ScheduledUtilization           .22807    
+Runway 9by27.NumberSeized                   72.000    
+Runway 9by27.ScheduledUtilization           .14836    
+Parking Lot Chandigarh.NumberSeized         48.000    
+Parking Lot Chandigarh.ScheduledUtilizatio  .99863    
+runway chandigarh.NumberSeized              114.00    
+runway chandigarh.ScheduledUtilization      .23880    
+Runway 3by66 chandigarh.NumberSeized        .00000    
+Runway 3by66 chandigarh.ScheduledUtilizati  .00000    
+Runway 15by33.NumberSeized                  65.000    
+Runway 15by33.ScheduledUtilization          .13174    
+Parking Lot.NumberSeized                    55.000    
+Parking Lot.ScheduledUtilization            .96364    
+Parking Lot dehradun.NumberSeized           48.000    
+Parking Lot dehradun.ScheduledUtilization   .98813    
+System.NumberOut                            296.00    
+
+Beginning replication 2 of 30
+
+                                      ARENA Simulation Results
+                                  Shashank Sundi - License: STUDENT
+
+                                  Summary for Replication 2 of 30
+
+Project: Delhi Flight Diversion Strategy                             Run execution date : 4/ 1/2022
+Analyst: Shashank Sundi                                              Model revision date: 4/ 1/2022
+
+Replication ended at time      : 24.0 Hours (Sunday, March 27, 2022, 21:06:38)
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Departure from Jaipur.VATimePerEntity       .05029     (Insuf)    .01903     .07722         56    
+Runway Chandigarh.WaitTimePerEntity         .00393     (Insuf)    .00000     .06582         70    
+Runway 15 by 33.WaitTimePerEntity           .00127     (Insuf)    .00000     .01147          9    
+Departure from Chandigarh.VATimePerEntity   .04866     (Insuf)    .01760     .07437         49    
+Departure from Dehradun.WaitTimePerEntity   .00000     (Insuf)    .00000     .00000         45    
+Departure from Jaipur.TotalTimePerEntity    .05029     (Insuf)    .01903     .07722         56    
+Departure from Dehradun.TotalTimePerEntity  .04933     (Insuf)    .02566     .07799         45    
+Parking in Jaipur.WaitTimePerEntity         4.3264     (Insuf)    .00000     10.937         56    
+Parking in Jaipur.VATimePerEntity           .41304     (Insuf)    .33684     .49002         56    
+Parking in Chandigarh.WaitTimePerEntity     6.9331     (Insuf)    .00000     10.086         49    
+Parking in Jaipur.TotalTimePerEntity        4.7395     (Insuf)    .36156     11.348         56    
+Runway Chandigarh.TotalTimePerEntity        .05588     (Insuf)    .02296     .12170         70    
+Parking in Chandigarh.VATimePerEntity       .48614     (Insuf)    .34114     .63602         49    
+Parking in Chandigarh.TotalTimePerEntity    7.4193     (Insuf)    .51528     10.557         49    
+Runway 8 by 26.WaitTimePerEntity            .00246     (Insuf)    .00000     .03420         59    
+Runway 9 by 27.WaitTimePerEntity            .00000     (Insuf)    .00000     .00000         77    
+Parking in Dehra Dun.WaitTimePerEntity      4.2422     (Insuf)    .00000     7.2750         45    
+Runway 15 by 33.TotalTimePerEntity          .04909     (Insuf)    .02314     .08219          9    
+Parking in Dehra Dun.TotalTimePerEntity     4.7539     (Insuf)    .43658     7.7910         45    
+Departure from Chandigarh.WaitTimePerEntit  .00000     (Insuf)    .00000     .00000         49    
+Tally 1                                     4.3532     (Insuf)    .02296     13.420        255    
+Parking in Dehra Dun.VATimePerEntity        .51172     (Insuf)    .35686     .62693         45    
+Runway 8 by 26.VATimePerEntity              .05240     (Insuf)    .02409     .07371         59    
+Runway 9 by 27.VATimePerEntity              .05133     (Insuf)    .02005     .08060         77    
+Runway Chandigarh.VATimePerEntity           .05195     (Insuf)    .02296     .07804         70    
+Departure from Dehradun.VATimePerEntity     .04933     (Insuf)    .02566     .07799         45    
+Runway 8 by 26.TotalTimePerEntity           .05486     (Insuf)    .02409     .09319         59    
+Runway 9 by 27.TotalTimePerEntity           .05133     (Insuf)    .02005     .08060         77    
+Departure from Jaipur.WaitTimePerEntity     .00000     (Insuf)    .00000     .00000         56    
+Departure from Chandigarh.TotalTimePerEnti  .04866     (Insuf)    .01760     .07437         49    
+Runway 15 by 33.VATimePerEntity             .04782     (Insuf)    .02314     .07072          9    
+airplane.VATime                             .28387     (Insuf)    .00000     .73544        300    
+airplane.NVATime                            .00000     (Insuf)    .00000     .00000        300    
+airplane.WaitTime                           2.5780     (Insuf)    .00000     10.937        300    
+airplane.TranTime                           .00000     (Insuf)    .00000     .00000        300    
+airplane.OtherTime                          .00000     (Insuf)    .00000     .00000        300    
+airplane.TotalTime                          5.7237     (Insuf)    .46296     11.422        300    
+Runway 15 by 33.Queue.WaitingTime           .00127     (Insuf)    .00000     .01147          9    
+Parking in Chandigarh.Queue.WaitingTime     6.9926     (Insuf)    .00000     10.086         50    
+Parking in Jaipur.Queue.WaitingTime         4.4494     (Insuf)    .00000     11.337         57    
+Runway Clearance Wait Chandigarh.Queue.Wai  .00110     (Insuf)    .00000     .05377         49    
+Fly in Air till Parking and Runway is clea      --         --         --         --          0
+Departure from Jaipur.Queue.WaitingTime     .00000     (Insuf)    .00000     .00000         56    
+Runway 8 by 26.Queue.WaitingTime            .00246     (Insuf)    .00000     .03420         59    
+Runway 9 by 27.Queue.WaitingTime            .00000     (Insuf)    .00000     .00000         77    
+Runway Chandigarh.Queue.WaitingTime         .00393     (Insuf)    .00000     .06582         70    
+Runway Clearance wait Dehradun.Queue.Waiti  .00234     (Insuf)    .00000     .03400         45    
+Departure from Dehradun.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000         45    
+Runway Clearance Wait Jaipur.Queue.Waiting  .00000     (Insuf)    .00000     .00000         56    
+Parking in Dehra Dun.Queue.WaitingTime      4.3085     (Insuf)    .00000     7.2890         46    
+Departure from Chandigarh.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         49    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+airplane.WIP                                64.860     (Corr)     .00000     127.00     127.00    
+Runway 8by26.NumberBusy                     .22130     (Insuf)    .00000     1.0000     .00000    
+Runway 8by26.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Runway 8by26.Utilization                    .22130     (Insuf)    .00000     1.0000     .00000    
+Runway 9by27.NumberBusy                     .16468     (Insuf)    .00000     1.0000     .00000    
+Runway 9by27.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Runway 9by27.Utilization                    .16468     (Insuf)    .00000     1.0000     .00000    
+Parking Lot Chandigarh.NumberBusy           .99726     (Insuf)    .00000     1.0000     1.0000    
+Parking Lot Chandigarh.NumberScheduled      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Parking Lot Chandigarh.Utilization          .99726     (Insuf)    .00000     1.0000     1.0000    
+runway chandigarh.NumberBusy                .25088     (Insuf)    .00000     1.0000     .00000    
+runway chandigarh.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+runway chandigarh.Utilization               .25088     (Insuf)    .00000     1.0000     .00000    
+Runway 3by66 chandigarh.NumberBusy          .00000     (Insuf)    .00000     .00000     .00000    
+Runway 3by66 chandigarh.NumberScheduled     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Runway 3by66 chandigarh.Utilization         .00000     (Insuf)    .00000     .00000     .00000    
+Runway 15by33.NumberBusy                    .13527     (Insuf)    .00000     1.0000     .00000    
+Runway 15by33.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Runway 15by33.Utilization                   .13527     (Insuf)    .00000     1.0000     .00000    
+Parking Lot.NumberBusy                      .97467     (Insuf)    .00000     1.0000     1.0000    
+Parking Lot.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Parking Lot.Utilization                     .97467     (Insuf)    .00000     1.0000     1.0000    
+Parking Lot dehradun.NumberBusy             .98295     (Insuf)    .00000     1.0000     1.0000    
+Parking Lot dehradun.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Parking Lot dehradun.Utilization            .98295     (Insuf)    .00000     1.0000     1.0000    
+Runway 15 by 33.Queue.NumberInQueue         4.7796E-04 (Insuf)    .00000     1.0000     .00000    
+Parking in Chandigarh.Queue.NumberInQueue   18.461     (Insuf)    .00000     21.000     20.000    
+Parking in Jaipur.Queue.NumberInQueue       17.348     (Insuf)    .00000     29.000     29.000    
+Runway Clearance Wait Chandigarh.Queue.Num  .00225     (Insuf)    .00000     1.0000     .00000    
+Fly in Air till Parking and Runway is clea  14.906     (Insuf)    .00000     62.000     62.000    
+Departure from Jaipur.Queue.NumberInQueue   .00000     (Insuf)    .00000     .00000     .00000    
+Runway 8 by 26.Queue.NumberInQueue          .00605     (Insuf)    .00000     1.0000     .00000    
+Runway 9 by 27.Queue.NumberInQueue          .00000     (Insuf)    .00000     .00000     .00000    
+Runway Chandigarh.Queue.NumberInQueue       .01145     (Insuf)    .00000     1.0000     .00000    
+Runway Clearance wait Dehradun.Queue.Numbe  .00438     (Insuf)    .00000     1.0000     .00000    
+Departure from Dehradun.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Runway Clearance Wait Jaipur.Queue.NumberI  .00000     (Insuf)    .00000     .00000     .00000    
+Parking in Dehra Dun.Queue.NumberInQueue    10.392     (Insuf)    .00000     14.000     13.000    
+Departure from Chandigarh.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Counter 1                                       172  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Departure from Jaipur Accum Wait Time       .00000    
+Runway 15 by 33 Accum VA Time               .43037    
+Parking in Chandigarh Accum Wait Time       339.72    
+Runway Chandigarh Accum VA Time             3.6366    
+Runway 15 by 33 Number In                   9.0000    
+Departure from Dehradun Accum Wait Time     .00000    
+Parking in Chandigarh Accum VA Time         23.821    
+Runway 15 by 33 Number Out                  9.0000    
+Parking in Chandigarh Number In             70.000    
+Parking in Jaipur Number Out                56.000    
+Departure from Chandigarh Number Out        49.000    
+Parking in Chandigarh Number Out            49.000    
+Departure from Dehradun Number Out          45.000    
+Parking in Jaipur Number In                 86.000    
+Departure from Chandigarh Number In         49.000    
+Departure from Dehradun Number In           45.000    
+Parking in Dehra Dun Accum VA Time          23.027    
+Runway 8 by 26 Number Out                   59.000    
+Runway 9 by 27 Number Out                   77.000    
+Runway 8 by 26 Number In                    59.000    
+Runway 9 by 27 Number In                    77.000    
+Parking in Jaipur Accum VA Time             23.130    
+Parking in Dehra Dun Accum Wait Time        190.90    
+Parking in Dehra Dun Number Out             45.000    
+Departure from Chandigarh Accum Wait Time   .00000    
+Departure from Dehradun Accum VA Time       2.2198    
+Runway 8 by 26 Accum VA Time                3.0915    
+Runway 9 by 27 Accum VA Time                3.9522    
+Departure from Jaipur Number In             56.000    
+Runway Chandigarh Accum Wait Time           .27476    
+Departure from Jaipur Number Out            56.000    
+Runway 8 by 26 Accum Wait Time              .14522    
+Runway 9 by 27 Accum Wait Time              .00000    
+Departure from Jaipur Accum VA Time         2.8162    
+Runway 15 by 33 Accum Wait Time             .01147    
+Departure from Chandigarh Accum VA Time     2.3845    
+Parking in Dehra Dun Number In              59.000    
+Parking in Jaipur Accum Wait Time           242.28    
+Runway Chandigarh Number Out                70.000    
+Runway Chandigarh Number In                 70.000    
+airplane.NumberIn                           277.00    
+airplane.NumberOut                          150.00    
+Runway 8by26.NumberSeized                   104.00    
+Runway 8by26.ScheduledUtilization           .22130    
+Runway 9by27.NumberSeized                   77.000    
+Runway 9by27.ScheduledUtilization           .16468    
+Parking Lot Chandigarh.NumberSeized         50.000    
+Parking Lot Chandigarh.ScheduledUtilizatio  .99726    
+runway chandigarh.NumberSeized              119.00    
+runway chandigarh.ScheduledUtilization      .25088    
+Runway 3by66 chandigarh.NumberSeized        .00000    
+Runway 3by66 chandigarh.ScheduledUtilizati  .00000    
+Runway 15by33.NumberSeized                  65.000    
+Runway 15by33.ScheduledUtilization          .13527    
+Parking Lot.NumberSeized                    57.000    
+Parking Lot.ScheduledUtilization            .97467    
+Parking Lot dehradun.NumberSeized           46.000    
+Parking Lot dehradun.ScheduledUtilization   .98295    
+System.NumberOut                            300.00    
+
+Beginning replication 3 of 30
+
+                                      ARENA Simulation Results
+                                  Shashank Sundi - License: STUDENT
+
+                                  Summary for Replication 3 of 30
+
+Project: Delhi Flight Diversion Strategy                             Run execution date : 4/ 1/2022
+Analyst: Shashank Sundi                                              Model revision date: 4/ 1/2022
+
+Replication ended at time      : 24.0 Hours (Sunday, March 27, 2022, 21:06:38)
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Departure from Jaipur.VATimePerEntity       .04711     (Insuf)    .02153     .07793         55    
+Runway Chandigarh.WaitTimePerEntity         .01024     (Insuf)    .00000     .10313         69    
+Runway 15 by 33.WaitTimePerEntity           .00397     (Insuf)    .00000     .03055         14    
+Departure from Chandigarh.VATimePerEntity   .04857     (Insuf)    .01985     .07943         48    
+Departure from Dehradun.WaitTimePerEntity   .00000     (Insuf)    .00000     .00000         46    
+Departure from Jaipur.TotalTimePerEntity    .04711     (Insuf)    .02153     .07793         55    
+Departure from Dehradun.TotalTimePerEntity  .05259     (Insuf)    .02204     .07708         46    
+Parking in Jaipur.WaitTimePerEntity         4.3420     (Insuf)    .00000     11.610         55    
+Parking in Jaipur.VATimePerEntity           .41764     (Insuf)    .35449     .49343         55    
+Parking in Chandigarh.WaitTimePerEntity     7.0654     (Insuf)    .00000     10.361         48    
+Parking in Jaipur.TotalTimePerEntity        4.7596     (Insuf)    .36704     12.080         55    
+Runway Chandigarh.TotalTimePerEntity        .06163     (Insuf)    .02226     .16584         69    
+Parking in Chandigarh.VATimePerEntity       .49693     (Insuf)    .36564     .65560         48    
+Parking in Chandigarh.TotalTimePerEntity    7.5623     (Insuf)    .50239     10.808         48    
+Runway 8 by 26.WaitTimePerEntity            .00656     (Insuf)    .00000     .06044         61    
+Runway 9 by 27.WaitTimePerEntity            .00000     (Insuf)    .00000     .00000         70    
+Parking in Dehra Dun.WaitTimePerEntity      4.2761     (Insuf)    .00000     7.0209         46    
+Runway 15 by 33.TotalTimePerEntity          .05850     (Insuf)    .04074     .08392         14    
+Parking in Dehra Dun.TotalTimePerEntity     4.7693     (Insuf)    .38238     7.4779         46    
+Departure from Chandigarh.WaitTimePerEntit  .00000     (Insuf)    .00000     .00000         48    
+Tally 1                                     4.4641     (Insuf)    .01968     13.401        252    
+Parking in Dehra Dun.VATimePerEntity        .49319     (Insuf)    .38238     .62554         46    
+Runway 8 by 26.VATimePerEntity              .04793     (Insuf)    .02570     .07772         61    
+Runway 9 by 27.VATimePerEntity              .04811     (Insuf)    .01968     .08182         70    
+Runway Chandigarh.VATimePerEntity           .05139     (Insuf)    .02226     .08024         69    
+Departure from Dehradun.VATimePerEntity     .05259     (Insuf)    .02204     .07708         46    
+Runway 8 by 26.TotalTimePerEntity           .05449     (Insuf)    .02570     .13590         61    
+Runway 9 by 27.TotalTimePerEntity           .04811     (Insuf)    .01968     .08182         70    
+Departure from Jaipur.WaitTimePerEntity     .00000     (Insuf)    .00000     .00000         55    
+Departure from Chandigarh.TotalTimePerEnti  .04857     (Insuf)    .01985     .07943         48    
+Runway 15 by 33.VATimePerEntity             .05453     (Insuf)    .04074     .07501         14    
+airplane.VATime                             .28288     (Insuf)    .00000     .75093        298    
+airplane.NVATime                            .00000     (Insuf)    .00000     .00000        298    
+airplane.WaitTime                           2.6039     (Insuf)    .00000     11.610        298    
+airplane.TranTime                           .00000     (Insuf)    .00000     .00000        298    
+airplane.OtherTime                          .00000     (Insuf)    .00000     .00000        298    
+airplane.TotalTime                          5.7736     (Insuf)    .46096     12.152        298    
+Runway 15 by 33.Queue.WaitingTime           .00397     (Insuf)    .00000     .03055         14    
+Parking in Chandigarh.Queue.WaitingTime     7.1208     (Insuf)    .00000     10.361         49    
+Parking in Jaipur.Queue.WaitingTime         4.4761     (Insuf)    .00000     11.852         56    
+Runway Clearance Wait Chandigarh.Queue.Wai  .00226     (Insuf)    .00000     .06211         48    
+Fly in Air till Parking and Runway is clea      --         --         --         --          0
+Departure from Jaipur.Queue.WaitingTime     .00000     (Insuf)    .00000     .00000         55    
+Runway 8 by 26.Queue.WaitingTime            .00656     (Insuf)    .00000     .06044         61    
+Runway 9 by 27.Queue.WaitingTime            .00000     (Insuf)    .00000     .00000         70    
+Runway Chandigarh.Queue.WaitingTime         .01024     (Insuf)    .00000     .10313         69    
+Runway Clearance wait Dehradun.Queue.Waiti  .00440     (Insuf)    .00000     .05097         46    
+Departure from Dehradun.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000         46    
+Runway Clearance Wait Jaipur.Queue.Waiting  .00000     (Insuf)    .00000     .00000         55    
+Parking in Dehra Dun.Queue.WaitingTime      4.3233     (Insuf)    .00000     7.0209         47    
+Departure from Chandigarh.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         48    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+airplane.WIP                                65.300     (Corr)     .00000     126.00     124.00    
+Runway 8by26.NumberBusy                     .22262     (Insuf)    .00000     1.0000     .00000    
+Runway 8by26.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Runway 8by26.Utilization                    .22262     (Insuf)    .00000     1.0000     .00000    
+Runway 9by27.NumberBusy                     .14031     (Insuf)    .00000     1.0000     .00000    
+Runway 9by27.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Runway 9by27.Utilization                    .14031     (Insuf)    .00000     1.0000     .00000    
+Parking Lot Chandigarh.NumberBusy           .99776     (Insuf)    .00000     1.0000     1.0000    
+Parking Lot Chandigarh.NumberScheduled      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Parking Lot Chandigarh.Utilization          .99776     (Insuf)    .00000     1.0000     1.0000    
+runway chandigarh.NumberBusy                .24489     (Insuf)    .00000     1.0000     .00000    
+runway chandigarh.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+runway chandigarh.Utilization               .24489     (Insuf)    .00000     1.0000     .00000    
+Runway 3by66 chandigarh.NumberBusy          .00000     (Insuf)    .00000     .00000     .00000    
+Runway 3by66 chandigarh.NumberScheduled     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Runway 3by66 chandigarh.Utilization         .00000     (Insuf)    .00000     .00000     .00000    
+Runway 15by33.NumberBusy                    .13978     (Insuf)    .00000     1.0000     .00000    
+Runway 15by33.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Runway 15by33.Utilization                   .13978     (Insuf)    .00000     1.0000     .00000    
+Parking Lot.NumberBusy                      .96099     (Insuf)    .00000     1.0000     1.0000    
+Parking Lot.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Parking Lot.Utilization                     .96099     (Insuf)    .00000     1.0000     1.0000    
+Parking Lot dehradun.NumberBusy             .96075     (Insuf)    .00000     1.0000     1.0000    
+Parking Lot dehradun.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Parking Lot dehradun.Utilization            .96075     (Insuf)    .00000     1.0000     1.0000    
+Runway 15 by 33.Queue.NumberInQueue         .00231     (Insuf)    .00000     1.0000     .00000    
+Parking in Chandigarh.Queue.NumberInQueue   18.681     (Insuf)    .00000     21.000     20.000    
+Parking in Jaipur.Queue.NumberInQueue       17.466     (Insuf)    .00000     30.000     28.000    
+Runway Clearance Wait Chandigarh.Queue.Num  .00452     (Insuf)    .00000     1.0000     .00000    
+Fly in Air till Parking and Runway is clea  15.055     (Insuf)    .00000     59.000     59.000    
+Departure from Jaipur.Queue.NumberInQueue   .00000     (Insuf)    .00000     .00000     .00000    
+Runway 8 by 26.Queue.NumberInQueue          .01667     (Insuf)    .00000     1.0000     .00000    
+Runway 9 by 27.Queue.NumberInQueue          .00000     (Insuf)    .00000     .00000     .00000    
+Runway Chandigarh.Queue.NumberInQueue       .02945     (Insuf)    .00000     2.0000     .00000    
+Runway Clearance wait Dehradun.Queue.Numbe  .00844     (Insuf)    .00000     1.0000     .00000    
+Departure from Dehradun.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Runway Clearance Wait Jaipur.Queue.NumberI  .00000     (Insuf)    .00000     .00000     .00000    
+Parking in Dehra Dun.Queue.NumberInQueue    10.369     (Insuf)    .00000     14.000     14.000    
+Departure from Chandigarh.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Counter 1                                       189  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Departure from Jaipur Accum Wait Time       .00000    
+Runway 15 by 33 Accum VA Time               .76344    
+Parking in Chandigarh Accum Wait Time       339.14    
+Runway Chandigarh Accum VA Time             3.5459    
+Runway 15 by 33 Number In                   14.000    
+Departure from Dehradun Accum Wait Time     .00000    
+Parking in Chandigarh Accum VA Time         23.852    
+Runway 15 by 33 Number Out                  14.000    
+Parking in Chandigarh Number In             69.000    
+Parking in Jaipur Number Out                55.000    
+Departure from Chandigarh Number Out        48.000    
+Parking in Chandigarh Number Out            48.000    
+Departure from Dehradun Number Out          46.000    
+Parking in Jaipur Number In                 84.000    
+Departure from Chandigarh Number In         48.000    
+Departure from Dehradun Number In           46.000    
+Parking in Dehra Dun Accum VA Time          22.686    
+Runway 8 by 26 Number Out                   61.000    
+Runway 9 by 27 Number Out                   70.000    
+Runway 8 by 26 Number In                    61.000    
+Runway 9 by 27 Number In                    70.000    
+Parking in Jaipur Accum VA Time             22.970    
+Parking in Dehra Dun Accum Wait Time        196.70    
+Parking in Dehra Dun Number Out             46.000    
+Departure from Chandigarh Accum Wait Time   .00000    
+Departure from Dehradun Accum VA Time       2.4191    
+Runway 8 by 26 Accum VA Time                2.9238    
+Runway 9 by 27 Accum VA Time                3.3674    
+Departure from Jaipur Number In             55.000    
+Runway Chandigarh Accum Wait Time           .70674    
+Departure from Jaipur Number Out            55.000    
+Runway 8 by 26 Accum Wait Time              .40007    
+Runway 9 by 27 Accum Wait Time              .00000    
+Departure from Jaipur Accum VA Time         2.5912    
+Runway 15 by 33 Accum Wait Time             .05551    
+Departure from Chandigarh Accum VA Time     2.3313    
+Parking in Dehra Dun Number In              61.000    
+Parking in Jaipur Accum Wait Time           238.81    
+Runway Chandigarh Number Out                69.000    
+Runway Chandigarh Number In                 69.000    
+airplane.NumberIn                           273.00    
+airplane.NumberOut                          149.00    
+Runway 8by26.NumberSeized                   107.00    
+Runway 8by26.ScheduledUtilization           .22262    
+Runway 9by27.NumberSeized                   70.000    
+Runway 9by27.ScheduledUtilization           .14031    
+Parking Lot Chandigarh.NumberSeized         49.000    
+Parking Lot Chandigarh.ScheduledUtilizatio  .99776    
+runway chandigarh.NumberSeized              117.00    
+runway chandigarh.ScheduledUtilization      .24489    
+Runway 3by66 chandigarh.NumberSeized        .00000    
+Runway 3by66 chandigarh.ScheduledUtilizati  .00000    
+Runway 15by33.NumberSeized                  69.000    
+Runway 15by33.ScheduledUtilization          .13978    
+Parking Lot.NumberSeized                    56.000    
+Parking Lot.ScheduledUtilization            .96099    
+Parking Lot dehradun.NumberSeized           47.000    
+Parking Lot dehradun.ScheduledUtilization   .96075    
+System.NumberOut                            298.00    
+
+Beginning replication 4 of 30
+
+                                      ARENA Simulation Results
+                                  Shashank Sundi - License: STUDENT
+
+                                  Summary for Replication 4 of 30
+
+Project: Delhi Flight Diversion Strategy                             Run execution date : 4/ 1/2022
+Analyst: Shashank Sundi                                              Model revision date: 4/ 1/2022
+
+Replication ended at time      : 24.0 Hours (Sunday, March 27, 2022, 21:06:38)
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Departure from Jaipur.VATimePerEntity       .05136     (Insuf)    .02753     .07757         53    
+Runway Chandigarh.WaitTimePerEntity         .00506     (Insuf)    .00000     .07233         68    
+Runway 15 by 33.WaitTimePerEntity           .00211     (Insuf)    .00000     .01895          9    
+Departure from Chandigarh.VATimePerEntity   .04792     (Insuf)    .02075     .07262         47    
+Departure from Dehradun.WaitTimePerEntity   .00000     (Insuf)    .00000     .00000         49    
+Departure from Jaipur.TotalTimePerEntity    .05136     (Insuf)    .02753     .07757         53    
+Departure from Dehradun.TotalTimePerEntity  .05156     (Insuf)    .02122     .07903         49    
+Parking in Jaipur.WaitTimePerEntity         4.4476     (Insuf)    .00000     11.652         54    
+Parking in Jaipur.VATimePerEntity           .41689     (Insuf)    .33560     .47794         54    
+Parking in Chandigarh.WaitTimePerEntity     6.9000     (Insuf)    .00000     10.568         47    
+Parking in Jaipur.TotalTimePerEntity        4.8645     (Insuf)    .33560     12.042         54    
+Runway Chandigarh.TotalTimePerEntity        .05553     (Insuf)    .01947     .12506         68    
+Parking in Chandigarh.VATimePerEntity       .50282     (Insuf)    .34595     .64074         47    
+Parking in Chandigarh.TotalTimePerEntity    7.4028     (Insuf)    .48723     11.099         47    
+Runway 8 by 26.WaitTimePerEntity            .00423     (Insuf)    .00000     .10367         63    
+Runway 9 by 27.WaitTimePerEntity            .00000     (Insuf)    .00000     .00000         74    
+Parking in Dehra Dun.WaitTimePerEntity      4.2123     (Insuf)    .00000     6.7180         49    
+Runway 15 by 33.TotalTimePerEntity          .04688     (Insuf)    .01894     .08365          9    
+Parking in Dehra Dun.TotalTimePerEntity     4.6931     (Insuf)    .56155     7.1524         49    
+Departure from Chandigarh.WaitTimePerEntit  .00000     (Insuf)    .00000     .00000         47    
+Tally 1                                     4.3896     (Insuf)    .01947     12.837        249    
+Parking in Dehra Dun.VATimePerEntity        .48088     (Insuf)    .34928     .60560         49    
+Runway 8 by 26.VATimePerEntity              .04896     (Insuf)    .01748     .07426         63    
+Runway 9 by 27.VATimePerEntity              .04946     (Insuf)    .01870     .07988         74    
+Runway Chandigarh.VATimePerEntity           .05047     (Insuf)    .01947     .07709         68    
+Departure from Dehradun.VATimePerEntity     .05156     (Insuf)    .02122     .07903         49    
+Runway 8 by 26.TotalTimePerEntity           .05320     (Insuf)    .01748     .16482         63    
+Runway 9 by 27.TotalTimePerEntity           .04946     (Insuf)    .01870     .07988         74    
+Departure from Jaipur.WaitTimePerEntity     .00000     (Insuf)    .00000     .00000         53    
+Departure from Chandigarh.TotalTimePerEnti  .04792     (Insuf)    .02075     .07262         47    
+Runway 15 by 33.VATimePerEntity             .04478     (Insuf)    .01894     .06470          9    
+airplane.VATime                             .28256     (Insuf)    .00000     .74728        298    
+airplane.NVATime                            .00000     (Insuf)    .00000     .00000        298    
+airplane.WaitTime                           2.5503     (Insuf)    .00000     11.430        298    
+airplane.TranTime                           .00000     (Insuf)    .00000     .00000        298    
+airplane.OtherTime                          .00000     (Insuf)    .00000     .00000        298    
+airplane.TotalTime                          5.6657     (Insuf)    .42430     11.945        298    
+Runway 15 by 33.Queue.WaitingTime           .00211     (Insuf)    .00000     .01895          9    
+Parking in Chandigarh.Queue.WaitingTime     6.9672     (Insuf)    .00000     10.568         48    
+Parking in Jaipur.Queue.WaitingTime         4.5850     (Insuf)    .00000     12.004         55    
+Runway Clearance Wait Chandigarh.Queue.Wai  .00383     (Insuf)    .00000     .07028         47    
+Fly in Air till Parking and Runway is clea      --         --         --         --          0
+Departure from Jaipur.Queue.WaitingTime     .00000     (Insuf)    .00000     .00000         54    
+Runway 8 by 26.Queue.WaitingTime            .00423     (Insuf)    .00000     .10367         63    
+Runway 9 by 27.Queue.WaitingTime            .00000     (Insuf)    .00000     .00000         74    
+Runway Chandigarh.Queue.WaitingTime         .00506     (Insuf)    .00000     .07233         68    
+Runway Clearance wait Dehradun.Queue.Waiti  .00416     (Insuf)    .00000     .06030         49    
+Departure from Dehradun.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000         49    
+Runway Clearance Wait Jaipur.Queue.Waiting  .00000     (Insuf)    .00000     .00000         54    
+Parking in Dehra Dun.Queue.WaitingTime      4.2478     (Insuf)    .00000     6.7180         50    
+Departure from Chandigarh.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         47    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+airplane.WIP                                64.513     (Corr)     .00000     125.00     124.00    
+Runway 8by26.NumberBusy                     .23378     (Insuf)    .00000     1.0000     .00000    
+Runway 8by26.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Runway 8by26.Utilization                    .23378     (Insuf)    .00000     1.0000     .00000    
+Runway 9by27.NumberBusy                     .15251     (Insuf)    .00000     1.0000     .00000    
+Runway 9by27.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Runway 9by27.Utilization                    .15251     (Insuf)    .00000     1.0000     .00000    
+Parking Lot Chandigarh.NumberBusy           .99699     (Insuf)    .00000     1.0000     1.0000    
+Parking Lot Chandigarh.NumberScheduled      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Parking Lot Chandigarh.Utilization          .99699     (Insuf)    .00000     1.0000     1.0000    
+runway chandigarh.NumberBusy                .23685     (Insuf)    .00000     1.0000     .00000    
+runway chandigarh.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+runway chandigarh.Utilization               .23685     (Insuf)    .00000     1.0000     .00000    
+Runway 3by66 chandigarh.NumberBusy          .00000     (Insuf)    .00000     .00000     .00000    
+Runway 3by66 chandigarh.NumberScheduled     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Runway 3by66 chandigarh.Utilization         .00000     (Insuf)    .00000     .00000     .00000    
+Runway 15by33.NumberBusy                    .13132     (Insuf)    .00000     1.0000     1.0000    
+Runway 15by33.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Runway 15by33.Utilization                   .13132     (Insuf)    .00000     1.0000     1.0000    
+Parking Lot.NumberBusy                      .93912     (Insuf)    .00000     1.0000     1.0000    
+Parking Lot.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Parking Lot.Utilization                     .93912     (Insuf)    .00000     1.0000     1.0000    
+Parking Lot dehradun.NumberBusy             .99730     (Insuf)    .00000     1.0000     1.0000    
+Parking Lot dehradun.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Parking Lot dehradun.Utilization            .99730     (Insuf)    .00000     1.0000     1.0000    
+Runway 15 by 33.Queue.NumberInQueue         7.8947E-04 (Insuf)    .00000     1.0000     .00000    
+Parking in Chandigarh.Queue.NumberInQueue   18.240     (Insuf)    .00000     21.000     20.000    
+Parking in Jaipur.Queue.NumberInQueue       17.273     (Insuf)    .00000     29.000     28.000    
+Runway Clearance Wait Chandigarh.Queue.Num  .00751     (Insuf)    .00000     1.0000     .00000    
+Fly in Air till Parking and Runway is clea  14.715     (Insuf)    .00000     59.000     59.000    
+Departure from Jaipur.Queue.NumberInQueue   .00000     (Insuf)    .00000     .00000     .00000    
+Runway 8 by 26.Queue.NumberInQueue          .01111     (Insuf)    .00000     2.0000     .00000    
+Runway 9 by 27.Queue.NumberInQueue          .00000     (Insuf)    .00000     .00000     .00000    
+Runway Chandigarh.Queue.NumberInQueue       .01434     (Insuf)    .00000     1.0000     .00000    
+Runway Clearance wait Dehradun.Queue.Numbe  .00849     (Insuf)    .00000     1.0000     .00000    
+Departure from Dehradun.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Runway Clearance Wait Jaipur.Queue.NumberI  .00000     (Insuf)    .00000     .00000     .00000    
+Parking in Dehra Dun.Queue.NumberInQueue    10.555     (Insuf)    .00000     14.000     13.000    
+Departure from Chandigarh.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Counter 1                                       207  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Departure from Jaipur Accum Wait Time       .00000    
+Runway 15 by 33 Accum VA Time               .40298    
+Parking in Chandigarh Accum Wait Time       324.30    
+Runway Chandigarh Accum VA Time             3.4322    
+Runway 15 by 33 Number In                   9.0000    
+Departure from Dehradun Accum Wait Time     .00000    
+Parking in Chandigarh Accum VA Time         23.632    
+Runway 15 by 33 Number Out                  9.0000    
+Parking in Chandigarh Number In             68.000    
+Parking in Jaipur Number Out                54.000    
+Departure from Chandigarh Number Out        47.000    
+Parking in Chandigarh Number Out            47.000    
+Departure from Dehradun Number Out          49.000    
+Parking in Jaipur Number In                 83.000    
+Departure from Chandigarh Number In         47.000    
+Departure from Dehradun Number In           49.000    
+Parking in Dehra Dun Accum VA Time          23.563    
+Runway 8 by 26 Number Out                   63.000    
+Runway 9 by 27 Number Out                   74.000    
+Runway 8 by 26 Number In                    63.000    
+Runway 9 by 27 Number In                    74.000    
+Parking in Jaipur Accum VA Time             22.512    
+Parking in Dehra Dun Accum Wait Time        206.40    
+Parking in Dehra Dun Number Out             49.000    
+Departure from Chandigarh Accum Wait Time   .00000    
+Departure from Dehradun Accum VA Time       2.5262    
+Runway 8 by 26 Accum VA Time                3.0846    
+Runway 9 by 27 Accum VA Time                3.6603    
+Departure from Jaipur Number In             54.000    
+Runway Chandigarh Accum Wait Time           .34413    
+Departure from Jaipur Number Out            53.000    
+Runway 8 by 26 Accum Wait Time              .26675    
+Runway 9 by 27 Accum Wait Time              .00000    
+Departure from Jaipur Accum VA Time         2.7220    
+Runway 15 by 33 Accum Wait Time             .01895    
+Departure from Chandigarh Accum VA Time     2.2522    
+Parking in Dehra Dun Number In              63.000    
+Parking in Jaipur Accum Wait Time           240.17    
+Runway Chandigarh Number Out                68.000    
+Runway Chandigarh Number In                 68.000    
+airplane.NumberIn                           273.00    
+airplane.NumberOut                          149.00    
+Runway 8by26.NumberSeized                   112.00    
+Runway 8by26.ScheduledUtilization           .23378    
+Runway 9by27.NumberSeized                   74.000    
+Runway 9by27.ScheduledUtilization           .15251    
+Parking Lot Chandigarh.NumberSeized         48.000    
+Parking Lot Chandigarh.ScheduledUtilizatio  .99699    
+runway chandigarh.NumberSeized              115.00    
+runway chandigarh.ScheduledUtilization      .23685    
+Runway 3by66 chandigarh.NumberSeized        .00000    
+Runway 3by66 chandigarh.ScheduledUtilizati  .00000    
+Runway 15by33.NumberSeized                  63.000    
+Runway 15by33.ScheduledUtilization          .13132    
+Parking Lot.NumberSeized                    55.000    
+Parking Lot.ScheduledUtilization            .93912    
+Parking Lot dehradun.NumberSeized           50.000    
+Parking Lot dehradun.ScheduledUtilization   .99730    
+System.NumberOut                            298.00    
+
+Beginning replication 5 of 30
+
+                                      ARENA Simulation Results
+                                  Shashank Sundi - License: STUDENT
+
+                                  Summary for Replication 5 of 30
+
+Project: Delhi Flight Diversion Strategy                             Run execution date : 4/ 1/2022
+Analyst: Shashank Sundi                                              Model revision date: 4/ 1/2022
+
+Replication ended at time      : 24.0 Hours (Sunday, March 27, 2022, 21:06:38)
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Departure from Jaipur.VATimePerEntity       .05096     (Insuf)    .02308     .08141         54    
+Runway Chandigarh.WaitTimePerEntity         .00694     (Insuf)    .00000     .05762         68    
+Runway 15 by 33.WaitTimePerEntity           .00456     (Insuf)    .00000     .03372         10    
+Departure from Chandigarh.VATimePerEntity   .04799     (Insuf)    .02267     .07574         47    
+Departure from Dehradun.WaitTimePerEntity   .00000     (Insuf)    .00000     .00000         46    
+Departure from Jaipur.TotalTimePerEntity    .05137     (Insuf)    .02308     .08141         54    
+Departure from Dehradun.TotalTimePerEntity  .04867     (Insuf)    .02158     .08056         46    
+Parking in Jaipur.WaitTimePerEntity         4.6442     (Insuf)    .00000     11.568         54    
+Parking in Jaipur.VATimePerEntity           .41475     (Insuf)    .34353     .48298         54    
+Parking in Chandigarh.WaitTimePerEntity     7.3107     (Insuf)    .00000     10.881         47    
+Parking in Jaipur.TotalTimePerEntity        5.0590     (Insuf)    .35120     11.969         54    
+Runway Chandigarh.TotalTimePerEntity        .05591     (Insuf)    .02069     .09547         68    
+Parking in Chandigarh.VATimePerEntity       .50524     (Insuf)    .37764     .61405         47    
+Parking in Chandigarh.TotalTimePerEntity    7.8159     (Insuf)    .45544     11.386         47    
+Runway 8 by 26.WaitTimePerEntity            .00628     (Insuf)    .00000     .08381         60    
+Runway 9 by 27.WaitTimePerEntity            .00000     (Insuf)    .00000     .00000         73    
+Parking in Dehra Dun.WaitTimePerEntity      4.5839     (Insuf)    .00000     7.3693         46    
+Runway 15 by 33.TotalTimePerEntity          .05178     (Insuf)    .02639     .08484         10    
+Parking in Dehra Dun.TotalTimePerEntity     5.0835     (Insuf)    .43033     7.8875         46    
+Departure from Chandigarh.WaitTimePerEntit  .00000     (Insuf)    .00000     .00000         47    
+Tally 1                                     4.6379     (Insuf)    .02134     13.019        248    
+Parking in Dehra Dun.VATimePerEntity        .49967     (Insuf)    .36360     .64159         46    
+Runway 8 by 26.VATimePerEntity              .04809     (Insuf)    .01763     .08173         60    
+Runway 9 by 27.VATimePerEntity              .04934     (Insuf)    .02134     .07653         73    
+Runway Chandigarh.VATimePerEntity           .04896     (Insuf)    .02069     .07128         68    
+Departure from Dehradun.VATimePerEntity     .04867     (Insuf)    .02158     .08056         46    
+Runway 8 by 26.TotalTimePerEntity           .05436     (Insuf)    .02224     .10144         60    
+Runway 9 by 27.TotalTimePerEntity           .04934     (Insuf)    .02134     .07653         73    
+Departure from Jaipur.WaitTimePerEntity     4.1433E-04 (Insuf)    .00000     .02237         54    
+Departure from Chandigarh.TotalTimePerEnti  .04799     (Insuf)    .02267     .07574         47    
+Runway 15 by 33.VATimePerEntity             .04722     (Insuf)    .02639     .06909         10    
+airplane.VATime                             .28371     (Insuf)    .00000     .74468        294    
+airplane.NVATime                            .00000     (Insuf)    .00000     .00000        294    
+airplane.WaitTime                           2.7417     (Insuf)    .00000     11.568        294    
+airplane.TranTime                           .00000     (Insuf)    .00000     .00000        294    
+airplane.OtherTime                          .00000     (Insuf)    .00000     .00000        294    
+airplane.TotalTime                          6.0509     (Insuf)    .43783     12.072        294    
+Runway 15 by 33.Queue.WaitingTime           .00456     (Insuf)    .00000     .03372         10    
+Parking in Chandigarh.Queue.WaitingTime     7.3709     (Insuf)    .00000     10.881         48    
+Parking in Jaipur.Queue.WaitingTime         4.7762     (Insuf)    .00000     11.901         55    
+Runway Clearance Wait Chandigarh.Queue.Wai  .00231     (Insuf)    .00000     .05946         47    
+Fly in Air till Parking and Runway is clea      --         --         --         --          0
+Departure from Jaipur.Queue.WaitingTime     4.1433E-04 (Insuf)    .00000     .02237         54    
+Runway 8 by 26.Queue.WaitingTime            .00628     (Insuf)    .00000     .08381         60    
+Runway 9 by 27.Queue.WaitingTime            .00000     (Insuf)    .00000     .00000         73    
+Runway Chandigarh.Queue.WaitingTime         .00694     (Insuf)    .00000     .05762         68    
+Runway Clearance wait Dehradun.Queue.Waiti  .00206     (Insuf)    .00000     .03821         46    
+Departure from Dehradun.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000         46    
+Runway Clearance Wait Jaipur.Queue.Waiting  3.6484E-04 (Insuf)    .00000     .01970         54    
+Parking in Dehra Dun.Queue.WaitingTime      4.6164     (Insuf)    .00000     7.3693         47    
+Departure from Chandigarh.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         47    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+airplane.WIP                                68.888     (Corr)     .00000     129.00     129.00    
+Runway 8by26.NumberBusy                     .21349     (Insuf)    .00000     1.0000     .00000    
+Runway 8by26.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Runway 8by26.Utilization                    .21349     (Insuf)    .00000     1.0000     .00000    
+Runway 9by27.NumberBusy                     .15007     (Insuf)    .00000     1.0000     .00000    
+Runway 9by27.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Runway 9by27.Utilization                    .15007     (Insuf)    .00000     1.0000     .00000    
+Parking Lot Chandigarh.NumberBusy           .99760     (Insuf)    .00000     1.0000     1.0000    
+Parking Lot Chandigarh.NumberScheduled      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Parking Lot Chandigarh.Utilization          .99760     (Insuf)    .00000     1.0000     1.0000    
+runway chandigarh.NumberBusy                .23271     (Insuf)    .00000     1.0000     .00000    
+runway chandigarh.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+runway chandigarh.Utilization               .23271     (Insuf)    .00000     1.0000     .00000    
+Runway 3by66 chandigarh.NumberBusy          .00000     (Insuf)    .00000     .00000     .00000    
+Runway 3by66 chandigarh.NumberScheduled     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Runway 3by66 chandigarh.Utilization         .00000     (Insuf)    .00000     .00000     .00000    
+Runway 15by33.NumberBusy                    .13433     (Insuf)    .00000     1.0000     .00000    
+Runway 15by33.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Runway 15by33.Utilization                   .13433     (Insuf)    .00000     1.0000     .00000    
+Parking Lot.NumberBusy                      .94723     (Insuf)    .00000     1.0000     1.0000    
+Parking Lot.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Parking Lot.Utilization                     .94723     (Insuf)    .00000     1.0000     1.0000    
+Parking Lot dehradun.NumberBusy             .97099     (Insuf)    .00000     1.0000     1.0000    
+Parking Lot dehradun.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Parking Lot dehradun.Utilization            .97099     (Insuf)    .00000     1.0000     1.0000    
+Runway 15 by 33.Queue.NumberInQueue         .00190     (Insuf)    .00000     1.0000     .00000    
+Parking in Chandigarh.Queue.NumberInQueue   18.832     (Insuf)    .00000     21.000     20.000    
+Parking in Jaipur.Queue.NumberInQueue       17.970     (Insuf)    .00000     29.000     28.000    
+Runway Clearance Wait Chandigarh.Queue.Num  .00453     (Insuf)    .00000     1.0000     .00000    
+Fly in Air till Parking and Runway is clea  17.598     (Insuf)    .00000     65.000     65.000    
+Departure from Jaipur.Queue.NumberInQueue   9.3225E-04 (Insuf)    .00000     1.0000     .00000    
+Runway 8 by 26.Queue.NumberInQueue          .01569     (Insuf)    .00000     2.0000     .00000    
+Runway 9 by 27.Queue.NumberInQueue          .00000     (Insuf)    .00000     .00000     .00000    
+Runway Chandigarh.Queue.NumberInQueue       .01967     (Insuf)    .00000     2.0000     .00000    
+Runway Clearance wait Dehradun.Queue.Numbe  .00396     (Insuf)    .00000     1.0000     .00000    
+Departure from Dehradun.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Runway Clearance Wait Jaipur.Queue.NumberI  8.2089E-04 (Insuf)    .00000     1.0000     .00000    
+Parking in Dehra Dun.Queue.NumberInQueue    10.793     (Insuf)    .00000     14.000     13.000    
+Departure from Chandigarh.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Counter 1                                       227  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Departure from Jaipur Accum Wait Time       .02237    
+Runway 15 by 33 Accum VA Time               .47217    
+Parking in Chandigarh Accum Wait Time       343.60    
+Runway Chandigarh Accum VA Time             3.3295    
+Runway 15 by 33 Number In                   10.000    
+Departure from Dehradun Accum Wait Time     .00000    
+Parking in Chandigarh Accum VA Time         23.746    
+Runway 15 by 33 Number Out                  10.000    
+Parking in Chandigarh Number In             68.000    
+Parking in Jaipur Number Out                54.000    
+Departure from Chandigarh Number Out        47.000    
+Parking in Chandigarh Number Out            47.000    
+Departure from Dehradun Number Out          46.000    
+Parking in Jaipur Number In                 83.000    
+Departure from Chandigarh Number In         47.000    
+Departure from Dehradun Number In           46.000    
+Parking in Dehra Dun Accum VA Time          22.984    
+Runway 8 by 26 Number Out                   60.000    
+Runway 9 by 27 Number Out                   73.000    
+Runway 8 by 26 Number In                    60.000    
+Runway 9 by 27 Number In                    73.000    
+Parking in Jaipur Accum VA Time             22.396    
+Parking in Dehra Dun Accum Wait Time        210.85    
+Parking in Dehra Dun Number Out             46.000    
+Departure from Chandigarh Accum Wait Time   .00000    
+Departure from Dehradun Accum VA Time       2.2386    
+Runway 8 by 26 Accum VA Time                2.8851    
+Runway 9 by 27 Accum VA Time                3.6017    
+Departure from Jaipur Number In             54.000    
+Runway Chandigarh Accum Wait Time           .47201    
+Departure from Jaipur Number Out            54.000    
+Runway 8 by 26 Accum Wait Time              .37662    
+Runway 9 by 27 Accum Wait Time              .00000    
+Departure from Jaipur Accum VA Time         2.7518    
+Runway 15 by 33 Accum Wait Time             .04561    
+Departure from Chandigarh Accum VA Time     2.2554    
+Parking in Dehra Dun Number In              60.000    
+Parking in Jaipur Accum Wait Time           250.79    
+Runway Chandigarh Number Out                68.000    
+Runway Chandigarh Number In                 68.000    
+airplane.NumberIn                           276.00    
+airplane.NumberOut                          147.00    
+Runway 8by26.NumberSeized                   106.00    
+Runway 8by26.ScheduledUtilization           .21349    
+Runway 9by27.NumberSeized                   73.000    
+Runway 9by27.ScheduledUtilization           .15007    
+Parking Lot Chandigarh.NumberSeized         48.000    
+Parking Lot Chandigarh.ScheduledUtilizatio  .99760    
+runway chandigarh.NumberSeized              115.00    
+runway chandigarh.ScheduledUtilization      .23271    
+Runway 3by66 chandigarh.NumberSeized        .00000    
+Runway 3by66 chandigarh.ScheduledUtilizati  .00000    
+Runway 15by33.NumberSeized                  64.000    
+Runway 15by33.ScheduledUtilization          .13433    
+Parking Lot.NumberSeized                    55.000    
+Parking Lot.ScheduledUtilization            .94723    
+Parking Lot dehradun.NumberSeized           47.000    
+Parking Lot dehradun.ScheduledUtilization   .97099    
+System.NumberOut                            294.00    
+
+Beginning replication 6 of 30
+
+                                      ARENA Simulation Results
+                                  Shashank Sundi - License: STUDENT
+
+                                  Summary for Replication 6 of 30
+
+Project: Delhi Flight Diversion Strategy                             Run execution date : 4/ 1/2022
+Analyst: Shashank Sundi                                              Model revision date: 4/ 1/2022
+
+Replication ended at time      : 24.0 Hours (Sunday, March 27, 2022, 21:06:38)
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Departure from Jaipur.VATimePerEntity       .04751     (Insuf)    .02078     .07511         55    
+Runway Chandigarh.WaitTimePerEntity         .00645     (Insuf)    .00000     .06321         70    
+Runway 15 by 33.WaitTimePerEntity           .00377     (Insuf)    .00000     .02372          8    
+Departure from Chandigarh.VATimePerEntity   .04652     (Insuf)    .02022     .07825         49    
+Departure from Dehradun.WaitTimePerEntity   .00000     (Insuf)    .00000     .00000         48    
+Departure from Jaipur.TotalTimePerEntity    .04751     (Insuf)    .02078     .07511         55    
+Departure from Dehradun.TotalTimePerEntity  .04894     (Insuf)    .02492     .08009         48    
+Parking in Jaipur.WaitTimePerEntity         4.0584     (Insuf)    .00000     10.690         55    
+Parking in Jaipur.VATimePerEntity           .41768     (Insuf)    .34721     .49470         55    
+Parking in Chandigarh.WaitTimePerEntity     6.7847     (Insuf)    .00000     10.314         49    
+Parking in Jaipur.TotalTimePerEntity        4.4761     (Insuf)    .38742     11.106         55    
+Runway Chandigarh.TotalTimePerEntity        .05614     (Insuf)    .02431     .10557         70    
+Parking in Chandigarh.VATimePerEntity       .48488     (Insuf)    .35285     .61209         49    
+Parking in Chandigarh.TotalTimePerEntity    7.2696     (Insuf)    .38116     10.845         49    
+Runway 8 by 26.WaitTimePerEntity            .00633     (Insuf)    .00000     .04863         62    
+Runway 9 by 27.WaitTimePerEntity            .00000     (Insuf)    .00000     .00000         77    
+Parking in Dehra Dun.WaitTimePerEntity      4.0503     (Insuf)    .00000     6.4908         48    
+Runway 15 by 33.TotalTimePerEntity          .04811     (Insuf)    .02660     .08001          8    
+Parking in Dehra Dun.TotalTimePerEntity     4.5259     (Insuf)    .37320     6.9833         48    
+Departure from Chandigarh.WaitTimePerEntit  .00000     (Insuf)    .00000     .00000         49    
+Tally 1                                     4.3418     (Insuf)    .02185     12.976        256    
+Parking in Dehra Dun.VATimePerEntity        .47561     (Insuf)    .37320     .60674         48    
+Runway 8 by 26.VATimePerEntity              .04910     (Insuf)    .02136     .08072         62    
+Runway 9 by 27.VATimePerEntity              .05157     (Insuf)    .02185     .07730         77    
+Runway Chandigarh.VATimePerEntity           .04969     (Insuf)    .02431     .07353         70    
+Departure from Dehradun.VATimePerEntity     .04894     (Insuf)    .02492     .08009         48    
+Runway 8 by 26.TotalTimePerEntity           .05543     (Insuf)    .02136     .10936         62    
+Runway 9 by 27.TotalTimePerEntity           .05157     (Insuf)    .02185     .07730         77    
+Departure from Jaipur.WaitTimePerEntity     .00000     (Insuf)    .00000     .00000         55    
+Departure from Chandigarh.TotalTimePerEnti  .04652     (Insuf)    .02022     .07825         49    
+Runway 15 by 33.VATimePerEntity             .04434     (Insuf)    .02660     .06283          8    
+airplane.VATime                             .27755     (Insuf)    .00000     .73177        304    
+airplane.NVATime                            .00000     (Insuf)    .00000     .00000        304    
+airplane.WaitTime                           2.4704     (Insuf)    .00000     10.690        304    
+airplane.TranTime                           .00000     (Insuf)    .00000     .00000        304    
+airplane.OtherTime                          .00000     (Insuf)    .00000     .00000        304    
+airplane.TotalTime                          5.4960     (Insuf)    .47095     11.225        304    
+Runway 15 by 33.Queue.WaitingTime           .00377     (Insuf)    .00000     .02372          8    
+Parking in Chandigarh.Queue.WaitingTime     6.8503     (Insuf)    .00000     10.314         50    
+Parking in Jaipur.Queue.WaitingTime         4.1824     (Insuf)    .00000     11.000         56    
+Runway Clearance Wait Chandigarh.Queue.Wai  .00372     (Insuf)    .00000     .05807         49    
+Fly in Air till Parking and Runway is clea      --         --         --         --          0
+Departure from Jaipur.Queue.WaitingTime     .00000     (Insuf)    .00000     .00000         55    
+Runway 8 by 26.Queue.WaitingTime            .00633     (Insuf)    .00000     .04863         62    
+Runway 9 by 27.Queue.WaitingTime            .00000     (Insuf)    .00000     .00000         77    
+Runway Chandigarh.Queue.WaitingTime         .00645     (Insuf)    .00000     .06321         70    
+Runway Clearance wait Dehradun.Queue.Waiti  .00182     (Insuf)    .00000     .03047         48    
+Departure from Dehradun.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000         48    
+Runway Clearance Wait Jaipur.Queue.Waiting  3.8392E-04 (Insuf)    .00000     .02112         55    
+Parking in Dehra Dun.Queue.WaitingTime      4.0991     (Insuf)    .00000     6.4908         49    
+Departure from Chandigarh.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         49    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+airplane.WIP                                61.540     (Corr)     .00000     120.00     120.00    
+Runway 8by26.NumberBusy                     .22473     (Insuf)    .00000     1.0000     .00000    
+Runway 8by26.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Runway 8by26.Utilization                    .22473     (Insuf)    .00000     1.0000     .00000    
+Runway 9by27.NumberBusy                     .16545     (Insuf)    .00000     1.0000     .00000    
+Runway 9by27.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Runway 9by27.Utilization                    .16545     (Insuf)    .00000     1.0000     .00000    
+Parking Lot Chandigarh.NumberBusy           .99737     (Insuf)    .00000     1.0000     1.0000    
+Parking Lot Chandigarh.NumberScheduled      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Parking Lot Chandigarh.Utilization          .99737     (Insuf)    .00000     1.0000     1.0000    
+runway chandigarh.NumberBusy                .23990     (Insuf)    .00000     1.0000     .00000    
+runway chandigarh.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+runway chandigarh.Utilization               .23990     (Insuf)    .00000     1.0000     .00000    
+Runway 3by66 chandigarh.NumberBusy          .00000     (Insuf)    .00000     .00000     .00000    
+Runway 3by66 chandigarh.NumberScheduled     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Runway 3by66 chandigarh.Utilization         .00000     (Insuf)    .00000     .00000     .00000    
+Runway 15by33.NumberBusy                    .12366     (Insuf)    .00000     1.0000     .00000    
+Runway 15by33.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Runway 15by33.Utilization                   .12366     (Insuf)    .00000     1.0000     .00000    
+Parking Lot.NumberBusy                      .97183     (Insuf)    .00000     1.0000     1.0000    
+Parking Lot.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Parking Lot.Utilization                     .97183     (Insuf)    .00000     1.0000     1.0000    
+Parking Lot dehradun.NumberBusy             .96910     (Insuf)    .00000     1.0000     1.0000    
+Parking Lot dehradun.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Parking Lot dehradun.Utilization            .96910     (Insuf)    .00000     1.0000     1.0000    
+Runway 15 by 33.Queue.NumberInQueue         .00126     (Insuf)    .00000     1.0000     .00000    
+Parking in Chandigarh.Queue.NumberInQueue   18.412     (Insuf)    .00000     21.000     20.000    
+Parking in Jaipur.Queue.NumberInQueue       16.697     (Insuf)    .00000     29.000     29.000    
+Runway Clearance Wait Chandigarh.Queue.Num  .00760     (Insuf)    .00000     1.0000     .00000    
+Fly in Air till Parking and Runway is clea  12.440     (Insuf)    .00000     55.000     55.000    
+Departure from Jaipur.Queue.NumberInQueue   .00000     (Insuf)    .00000     .00000     .00000    
+Runway 8 by 26.Queue.NumberInQueue          .01635     (Insuf)    .00000     1.0000     .00000    
+Runway 9 by 27.Queue.NumberInQueue          .00000     (Insuf)    .00000     .00000     .00000    
+Runway Chandigarh.Queue.NumberInQueue       .01882     (Insuf)    .00000     1.0000     .00000    
+Runway Clearance wait Dehradun.Queue.Numbe  .00364     (Insuf)    .00000     1.0000     .00000    
+Departure from Dehradun.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Runway Clearance Wait Jaipur.Queue.NumberI  8.7983E-04 (Insuf)    .00000     1.0000     .00000    
+Parking in Dehra Dun.Queue.NumberInQueue    10.249     (Insuf)    .00000     14.000     13.000    
+Departure from Chandigarh.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Counter 1                                       213  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Departure from Jaipur Accum Wait Time       .00000    
+Runway 15 by 33 Accum VA Time               .35474    
+Parking in Chandigarh Accum Wait Time       332.45    
+Runway Chandigarh Accum VA Time             3.4780    
+Runway 15 by 33 Number In                   8.0000    
+Departure from Dehradun Accum Wait Time     .00000    
+Parking in Chandigarh Accum VA Time         23.759    
+Runway 15 by 33 Number Out                  8.0000    
+Parking in Chandigarh Number In             70.000    
+Parking in Jaipur Number Out                55.000    
+Departure from Chandigarh Number Out        49.000    
+Parking in Chandigarh Number Out            49.000    
+Departure from Dehradun Number Out          48.000    
+Parking in Jaipur Number In                 85.000    
+Departure from Chandigarh Number In         49.000    
+Departure from Dehradun Number In           48.000    
+Parking in Dehra Dun Accum VA Time          22.829    
+Runway 8 by 26 Number Out                   62.000    
+Runway 9 by 27 Number Out                   77.000    
+Runway 8 by 26 Number In                    62.000    
+Runway 9 by 27 Number In                    77.000    
+Parking in Jaipur Accum VA Time             22.972    
+Parking in Dehra Dun Accum Wait Time        194.41    
+Parking in Dehra Dun Number Out             48.000    
+Departure from Chandigarh Accum Wait Time   .00000    
+Departure from Dehradun Accum VA Time       2.3493    
+Runway 8 by 26 Accum VA Time                3.0440    
+Runway 9 by 27 Accum VA Time                3.9707    
+Departure from Jaipur Number In             55.000    
+Runway Chandigarh Accum Wait Time           .45168    
+Departure from Jaipur Number Out            55.000    
+Runway 8 by 26 Accum Wait Time              .39244    
+Runway 9 by 27 Accum Wait Time              .00000    
+Departure from Jaipur Accum VA Time         2.6131    
+Runway 15 by 33 Accum Wait Time             .03015    
+Departure from Chandigarh Accum VA Time     2.2795    
+Parking in Dehra Dun Number In              62.000    
+Parking in Jaipur Accum Wait Time           223.21    
+Runway Chandigarh Number Out                70.000    
+Runway Chandigarh Number In                 70.000    
+airplane.NumberIn                           272.00    
+airplane.NumberOut                          152.00    
+Runway 8by26.NumberSeized                   110.00    
+Runway 8by26.ScheduledUtilization           .22473    
+Runway 9by27.NumberSeized                   77.000    
+Runway 9by27.ScheduledUtilization           .16545    
+Parking Lot Chandigarh.NumberSeized         50.000    
+Parking Lot Chandigarh.ScheduledUtilizatio  .99737    
+runway chandigarh.NumberSeized              119.00    
+runway chandigarh.ScheduledUtilization      .23990    
+Runway 3by66 chandigarh.NumberSeized        .00000    
+Runway 3by66 chandigarh.ScheduledUtilizati  .00000    
+Runway 15by33.NumberSeized                  63.000    
+Runway 15by33.ScheduledUtilization          .12366    
+Parking Lot.NumberSeized                    56.000    
+Parking Lot.ScheduledUtilization            .97183    
+Parking Lot dehradun.NumberSeized           49.000    
+Parking Lot dehradun.ScheduledUtilization   .96910    
+System.NumberOut                            304.00    
+
+Beginning replication 7 of 30
+
+                                      ARENA Simulation Results
+                                  Shashank Sundi - License: STUDENT
+
+                                  Summary for Replication 7 of 30
+
+Project: Delhi Flight Diversion Strategy                             Run execution date : 4/ 1/2022
+Analyst: Shashank Sundi                                              Model revision date: 4/ 1/2022
+
+Replication ended at time      : 24.0 Hours (Sunday, March 27, 2022, 21:06:38)
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Departure from Jaipur.VATimePerEntity       .04826     (Insuf)    .02333     .08065         54    
+Runway Chandigarh.WaitTimePerEntity         .00639     (Insuf)    .00000     .07845         69    
+Runway 15 by 33.WaitTimePerEntity           .00553     (Insuf)    .00000     .03429         12    
+Departure from Chandigarh.VATimePerEntity   .05056     (Insuf)    .01984     .07369         47    
+Departure from Dehradun.WaitTimePerEntity   .00000     (Insuf)    .00000     .00000         45    
+Departure from Jaipur.TotalTimePerEntity    .04936     (Insuf)    .02333     .08708         54    
+Departure from Dehradun.TotalTimePerEntity  .05037     (Insuf)    .02299     .07146         45    
+Parking in Jaipur.WaitTimePerEntity         4.2665     (Insuf)    .00000     11.185         54    
+Parking in Jaipur.VATimePerEntity           .41727     (Insuf)    .34648     .48379         54    
+Parking in Chandigarh.WaitTimePerEntity     7.0409     (Insuf)    .00000     10.663         47    
+Parking in Jaipur.TotalTimePerEntity        4.6838     (Insuf)    .37807     11.585         54    
+Runway Chandigarh.TotalTimePerEntity        .05923     (Insuf)    .02480     .12552         69    
+Parking in Chandigarh.VATimePerEntity       .49962     (Insuf)    .35743     .64454         47    
+Parking in Chandigarh.TotalTimePerEntity    7.5405     (Insuf)    .54667     11.191         47    
+Runway 8 by 26.WaitTimePerEntity            .00388     (Insuf)    .00000     .04582         59    
+Runway 9 by 27.WaitTimePerEntity            .00000     (Insuf)    .00000     .00000         71    
+Parking in Dehra Dun.WaitTimePerEntity      4.3751     (Insuf)    .00000     7.2047         45    
+Runway 15 by 33.TotalTimePerEntity          .05846     (Insuf)    .03554     .08225         12    
+Parking in Dehra Dun.TotalTimePerEntity     4.8818     (Insuf)    .41531     7.7234         45    
+Departure from Chandigarh.WaitTimePerEntit  .00000     (Insuf)    .00000     .00000         47    
+Tally 1                                     4.4254     (Insuf)    .02426     12.894        247    
+Parking in Dehra Dun.VATimePerEntity        .50670     (Insuf)    .34998     .64221         45    
+Runway 8 by 26.VATimePerEntity              .05041     (Insuf)    .02387     .07738         59    
+Runway 9 by 27.VATimePerEntity              .04986     (Insuf)    .01985     .07948         71    
+Runway Chandigarh.VATimePerEntity           .05284     (Insuf)    .02480     .07845         69    
+Departure from Dehradun.VATimePerEntity     .05037     (Insuf)    .02299     .07146         45    
+Runway 8 by 26.TotalTimePerEntity           .05429     (Insuf)    .02544     .09293         59    
+Runway 9 by 27.TotalTimePerEntity           .04986     (Insuf)    .01985     .07948         71    
+Departure from Jaipur.WaitTimePerEntity     .00110     (Insuf)    .00000     .04175         54    
+Departure from Chandigarh.TotalTimePerEnti  .05056     (Insuf)    .01984     .07369         47    
+Runway 15 by 33.VATimePerEntity             .05293     (Insuf)    .02815     .07259         12    
+airplane.VATime                             .28631     (Insuf)    .00000     .73860        292    
+airplane.NVATime                            .00000     (Insuf)    .00000     .00000        292    
+airplane.WaitTime                           2.5992     (Insuf)    .00000     11.219        292    
+airplane.TranTime                           .00000     (Insuf)    .00000     .00000        292    
+airplane.OtherTime                          .00000     (Insuf)    .00000     .00000        292    
+airplane.TotalTime                          5.7712     (Insuf)    .45149     11.709        292    
+Runway 15 by 33.Queue.WaitingTime           .00553     (Insuf)    .00000     .03429         12    
+Parking in Chandigarh.Queue.WaitingTime     7.1027     (Insuf)    .00000     10.663         48    
+Parking in Jaipur.Queue.WaitingTime         4.3972     (Insuf)    .00000     11.454         55    
+Runway Clearance Wait Chandigarh.Queue.Wai  .00139     (Insuf)    .00000     .03714         47    
+Fly in Air till Parking and Runway is clea      --         --         --         --          0
+Departure from Jaipur.Queue.WaitingTime     .00110     (Insuf)    .00000     .04175         54    
+Runway 8 by 26.Queue.WaitingTime            .00381     (Insuf)    .00000     .04582         60    
+Runway 9 by 27.Queue.WaitingTime            .00000     (Insuf)    .00000     .00000         71    
+Runway Chandigarh.Queue.WaitingTime         .00639     (Insuf)    .00000     .07845         69    
+Runway Clearance wait Dehradun.Queue.Waiti  .00200     (Insuf)    .00000     .04656         45    
+Departure from Dehradun.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000         45    
+Runway Clearance Wait Jaipur.Queue.Waiting  3.2819E-04 (Insuf)    .00000     .01772         54    
+Parking in Dehra Dun.Queue.WaitingTime      4.4228     (Insuf)    .00000     7.2047         46    
+Departure from Chandigarh.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         47    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+airplane.WIP                                62.220     (Corr)     .00000     117.00     117.00    
+Runway 8by26.NumberBusy                     .21875     (Insuf)    .00000     1.0000     1.0000    
+Runway 8by26.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Runway 8by26.Utilization                    .21875     (Insuf)    .00000     1.0000     1.0000    
+Runway 9by27.NumberBusy                     .14750     (Insuf)    .00000     1.0000     .00000    
+Runway 9by27.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Runway 9by27.Utilization                    .14750     (Insuf)    .00000     1.0000     .00000    
+Parking Lot Chandigarh.NumberBusy           .99673     (Insuf)    .00000     1.0000     1.0000    
+Parking Lot Chandigarh.NumberScheduled      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Parking Lot Chandigarh.Utilization          .99673     (Insuf)    .00000     1.0000     1.0000    
+runway chandigarh.NumberBusy                .25092     (Insuf)    .00000     1.0000     .00000    
+runway chandigarh.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+runway chandigarh.Utilization               .25092     (Insuf)    .00000     1.0000     .00000    
+Runway 3by66 chandigarh.NumberBusy          .00000     (Insuf)    .00000     .00000     .00000    
+Runway 3by66 chandigarh.NumberScheduled     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Runway 3by66 chandigarh.Utilization         .00000     (Insuf)    .00000     .00000     .00000    
+Runway 15by33.NumberBusy                    .13505     (Insuf)    .00000     1.0000     .00000    
+Runway 15by33.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Runway 15by33.Utilization                   .13505     (Insuf)    .00000     1.0000     .00000    
+Parking Lot.NumberBusy                      .95466     (Insuf)    .00000     1.0000     1.0000    
+Parking Lot.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Parking Lot.Utilization                     .95466     (Insuf)    .00000     1.0000     1.0000    
+Parking Lot dehradun.NumberBusy             .96696     (Insuf)    .00000     1.0000     1.0000    
+Parking Lot dehradun.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Parking Lot dehradun.Utilization            .96696     (Insuf)    .00000     1.0000     1.0000    
+Runway 15 by 33.Queue.NumberInQueue         .00277     (Insuf)    .00000     1.0000     .00000    
+Parking in Chandigarh.Queue.NumberInQueue   18.453     (Insuf)    .00000     21.000     21.000    
+Parking in Jaipur.Queue.NumberInQueue       17.249     (Insuf)    .00000     29.000     28.000    
+Runway Clearance Wait Chandigarh.Queue.Num  .00273     (Insuf)    .00000     1.0000     .00000    
+Fly in Air till Parking and Runway is clea  12.523     (Insuf)    .00000     51.000     51.000    
+Departure from Jaipur.Queue.NumberInQueue   .00247     (Insuf)    .00000     1.0000     .00000    
+Runway 8 by 26.Queue.NumberInQueue          .00954     (Insuf)    .00000     1.0000     .00000    
+Runway 9 by 27.Queue.NumberInQueue          .00000     (Insuf)    .00000     .00000     .00000    
+Runway Chandigarh.Queue.NumberInQueue       .01837     (Insuf)    .00000     1.0000     .00000    
+Runway Clearance wait Dehradun.Queue.Numbe  .00375     (Insuf)    .00000     1.0000     .00000    
+Departure from Dehradun.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Runway Clearance Wait Jaipur.Queue.NumberI  7.3842E-04 (Insuf)    .00000     1.0000     .00000    
+Parking in Dehra Dun.Queue.NumberInQueue    10.283     (Insuf)    .00000     15.000     13.000    
+Departure from Chandigarh.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Counter 1                                       187  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Departure from Jaipur Accum Wait Time       .05922    
+Runway 15 by 33 Accum VA Time               .63513    
+Parking in Chandigarh Accum Wait Time       330.92    
+Runway Chandigarh Accum VA Time             3.6458    
+Runway 15 by 33 Number In                   12.000    
+Departure from Dehradun Accum Wait Time     .00000    
+Parking in Chandigarh Accum VA Time         23.482    
+Runway 15 by 33 Number Out                  12.000    
+Parking in Chandigarh Number In             69.000    
+Parking in Jaipur Number Out                54.000    
+Departure from Chandigarh Number Out        47.000    
+Parking in Chandigarh Number Out            47.000    
+Departure from Dehradun Number Out          45.000    
+Parking in Jaipur Number In                 83.000    
+Departure from Chandigarh Number In         47.000    
+Departure from Dehradun Number In           45.000    
+Parking in Dehra Dun Accum VA Time          22.801    
+Runway 8 by 26 Number Out                   59.000    
+Runway 9 by 27 Number Out                   71.000    
+Runway 8 by 26 Number In                    60.000    
+Runway 9 by 27 Number In                    71.000    
+Parking in Jaipur Accum VA Time             22.532    
+Parking in Dehra Dun Accum Wait Time        196.88    
+Parking in Dehra Dun Number Out             45.000    
+Departure from Chandigarh Accum Wait Time   .00000    
+Departure from Dehradun Accum VA Time       2.2668    
+Runway 8 by 26 Accum VA Time                2.9740    
+Runway 9 by 27 Accum VA Time                3.5399    
+Departure from Jaipur Number In             54.000    
+Runway Chandigarh Accum Wait Time           .44095    
+Departure from Jaipur Number Out            54.000    
+Runway 8 by 26 Accum Wait Time              .22887    
+Runway 9 by 27 Accum Wait Time              .00000    
+Departure from Jaipur Accum VA Time         2.6060    
+Runway 15 by 33 Accum Wait Time             .06640    
+Departure from Chandigarh Accum VA Time     2.3762    
+Parking in Dehra Dun Number In              59.000    
+Parking in Jaipur Accum Wait Time           230.39    
+Runway Chandigarh Number Out                69.000    
+Runway Chandigarh Number In                 69.000    
+airplane.NumberIn                           263.00    
+airplane.NumberOut                          146.00    
+Runway 8by26.NumberSeized                   105.00    
+Runway 8by26.ScheduledUtilization           .21875    
+Runway 9by27.NumberSeized                   71.000    
+Runway 9by27.ScheduledUtilization           .14750    
+Parking Lot Chandigarh.NumberSeized         48.000    
+Parking Lot Chandigarh.ScheduledUtilizatio  .99673    
+runway chandigarh.NumberSeized              116.00    
+runway chandigarh.ScheduledUtilization      .25092    
+Runway 3by66 chandigarh.NumberSeized        .00000    
+Runway 3by66 chandigarh.ScheduledUtilizati  .00000    
+Runway 15by33.NumberSeized                  66.000    
+Runway 15by33.ScheduledUtilization          .13505    
+Parking Lot.NumberSeized                    55.000    
+Parking Lot.ScheduledUtilization            .95466    
+Parking Lot dehradun.NumberSeized           46.000    
+Parking Lot dehradun.ScheduledUtilization   .96696    
+System.NumberOut                            292.00    
+
+Beginning replication 8 of 30
+
+                                      ARENA Simulation Results
+                                  Shashank Sundi - License: STUDENT
+
+                                  Summary for Replication 8 of 30
+
+Project: Delhi Flight Diversion Strategy                             Run execution date : 4/ 1/2022
+Analyst: Shashank Sundi                                              Model revision date: 4/ 1/2022
+
+Replication ended at time      : 24.0 Hours (Sunday, March 27, 2022, 21:06:38)
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Departure from Jaipur.VATimePerEntity       .04916     (Insuf)    .02194     .07751         56    
+Runway Chandigarh.WaitTimePerEntity         .00647     (Insuf)    .00000     .06198         69    
+Runway 15 by 33.WaitTimePerEntity           .00322     (Insuf)    .00000     .03215         10    
+Departure from Chandigarh.VATimePerEntity   .05167     (Insuf)    .02141     .07737         48    
+Departure from Dehradun.WaitTimePerEntity   .00000     (Insuf)    .00000     .00000         46    
+Departure from Jaipur.TotalTimePerEntity    .04916     (Insuf)    .02194     .07751         56    
+Departure from Dehradun.TotalTimePerEntity  .05359     (Insuf)    .01910     .07708         46    
+Parking in Jaipur.WaitTimePerEntity         3.8081     (Insuf)    .00000     10.424         56    
+Parking in Jaipur.VATimePerEntity           .41306     (Insuf)    .33881     .49695         56    
+Parking in Chandigarh.WaitTimePerEntity     6.9215     (Insuf)    .00000     10.166         48    
+Parking in Jaipur.TotalTimePerEntity        4.2212     (Insuf)    .33881     10.882         56    
+Runway Chandigarh.TotalTimePerEntity        .05751     (Insuf)    .02347     .12327         69    
+Parking in Chandigarh.VATimePerEntity       .49645     (Insuf)    .36438     .64673         48    
+Parking in Chandigarh.TotalTimePerEntity    7.4180     (Insuf)    .56513     10.736         48    
+Runway 8 by 26.WaitTimePerEntity            .00483     (Insuf)    .00000     .05404         61    
+Runway 9 by 27.WaitTimePerEntity            .00000     (Insuf)    .00000     .00000         75    
+Parking in Dehra Dun.WaitTimePerEntity      4.1675     (Insuf)    .00000     6.8393         46    
+Runway 15 by 33.TotalTimePerEntity          .04824     (Insuf)    .02637     .06836         10    
+Parking in Dehra Dun.TotalTimePerEntity     4.6714     (Insuf)    .41753     7.2924         46    
+Departure from Chandigarh.WaitTimePerEntit  .00000     (Insuf)    .00000     .00000         48    
+Tally 1                                     4.3521     (Insuf)    .02066     13.379        254    
+Parking in Dehra Dun.VATimePerEntity        .50394     (Insuf)    .34100     .64084         46    
+Runway 8 by 26.VATimePerEntity              .05028     (Insuf)    .02454     .07813         61    
+Runway 9 by 27.VATimePerEntity              .04810     (Insuf)    .02066     .07741         75    
+Runway Chandigarh.VATimePerEntity           .05104     (Insuf)    .02152     .08080         69    
+Departure from Dehradun.VATimePerEntity     .05359     (Insuf)    .01910     .07708         46    
+Runway 8 by 26.TotalTimePerEntity           .05511     (Insuf)    .02454     .10718         61    
+Runway 9 by 27.TotalTimePerEntity           .04810     (Insuf)    .02066     .07741         75    
+Departure from Jaipur.WaitTimePerEntity     .00000     (Insuf)    .00000     .00000         56    
+Departure from Chandigarh.TotalTimePerEnti  .05167     (Insuf)    .02141     .07737         48    
+Runway 15 by 33.VATimePerEntity             .04503     (Insuf)    .02637     .05947         10    
+airplane.VATime                             .28393     (Insuf)    .00000     .78289        300    
+airplane.NVATime                            .00000     (Insuf)    .00000     .00000        300    
+airplane.WaitTime                           2.4592     (Insuf)    .00000     10.424        300    
+airplane.TranTime                           .00000     (Insuf)    .00000     .00000        300    
+airplane.OtherTime                          .00000     (Insuf)    .00000     .00000        300    
+airplane.TotalTime                          5.4863     (Insuf)    .46599     10.965        300    
+Runway 15 by 33.Queue.WaitingTime           .00322     (Insuf)    .00000     .03215         10    
+Parking in Chandigarh.Queue.WaitingTime     6.9818     (Insuf)    .00000     10.166         49    
+Parking in Jaipur.Queue.WaitingTime         3.9295     (Insuf)    .00000     10.722         57    
+Runway Clearance Wait Chandigarh.Queue.Wai  .00117     (Insuf)    .00000     .03346         48    
+Fly in Air till Parking and Runway is clea      --         --         --         --          0
+Departure from Jaipur.Queue.WaitingTime     .00000     (Insuf)    .00000     .00000         56    
+Runway 8 by 26.Queue.WaitingTime            .00483     (Insuf)    .00000     .05404         61    
+Runway 9 by 27.Queue.WaitingTime            .00000     (Insuf)    .00000     .00000         75    
+Runway Chandigarh.Queue.WaitingTime         .00647     (Insuf)    .00000     .06198         69    
+Runway Clearance wait Dehradun.Queue.Waiti  .00360     (Insuf)    .00000     .05752         46    
+Departure from Dehradun.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000         46    
+Runway Clearance Wait Jaipur.Queue.Waiting  .00000     (Insuf)    .00000     .00000         56    
+Parking in Dehra Dun.Queue.WaitingTime      4.2262     (Insuf)    .00000     6.9288         47    
+Departure from Chandigarh.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         48    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+airplane.WIP                                58.225     (Corr)     .00000     112.00     112.00    
+Runway 8by26.NumberBusy                     .23049     (Insuf)    .00000     1.0000     .00000    
+Runway 8by26.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Runway 8by26.Utilization                    .23049     (Insuf)    .00000     1.0000     .00000    
+Runway 9by27.NumberBusy                     .15032     (Insuf)    .00000     1.0000     .00000    
+Runway 9by27.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Runway 9by27.Utilization                    .15032     (Insuf)    .00000     1.0000     .00000    
+Parking Lot Chandigarh.NumberBusy           .99742     (Insuf)    .00000     1.0000     1.0000    
+Parking Lot Chandigarh.NumberScheduled      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Parking Lot Chandigarh.Utilization          .99742     (Insuf)    .00000     1.0000     1.0000    
+runway chandigarh.NumberBusy                .25009     (Insuf)    .00000     1.0000     .00000    
+runway chandigarh.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+runway chandigarh.Utilization               .25009     (Insuf)    .00000     1.0000     .00000    
+Runway 3by66 chandigarh.NumberBusy          .00000     (Insuf)    .00000     .00000     .00000    
+Runway 3by66 chandigarh.NumberScheduled     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Runway 3by66 chandigarh.Utilization         .00000     (Insuf)    .00000     .00000     .00000    
+Runway 15by33.NumberBusy                    .13347     (Insuf)    .00000     1.0000     .00000    
+Runway 15by33.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Runway 15by33.Utilization                   .13347     (Insuf)    .00000     1.0000     .00000    
+Parking Lot.NumberBusy                      .97242     (Insuf)    .00000     1.0000     1.0000    
+Parking Lot.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Parking Lot.Utilization                     .97242     (Insuf)    .00000     1.0000     1.0000    
+Parking Lot dehradun.NumberBusy             .97419     (Insuf)    .00000     1.0000     1.0000    
+Parking Lot dehradun.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Parking Lot dehradun.Utilization            .97419     (Insuf)    .00000     1.0000     1.0000    
+Runway 15 by 33.Queue.NumberInQueue         .00134     (Insuf)    .00000     1.0000     .00000    
+Parking in Chandigarh.Queue.NumberInQueue   18.558     (Insuf)    .00000     21.000     20.000    
+Parking in Jaipur.Queue.NumberInQueue       16.118     (Insuf)    .00000     29.000     28.000    
+Runway Clearance Wait Chandigarh.Queue.Num  .00235     (Insuf)    .00000     1.0000     .00000    
+Fly in Air till Parking and Runway is clea  9.6775     (Insuf)    .00000     47.000     47.000    
+Departure from Jaipur.Queue.NumberInQueue   .00000     (Insuf)    .00000     .00000     .00000    
+Runway 8 by 26.Queue.NumberInQueue          .01228     (Insuf)    .00000     2.0000     .00000    
+Runway 9 by 27.Queue.NumberInQueue          .00000     (Insuf)    .00000     .00000     .00000    
+Runway Chandigarh.Queue.NumberInQueue       .01861     (Insuf)    .00000     2.0000     .00000    
+Runway Clearance wait Dehradun.Queue.Numbe  .00689     (Insuf)    .00000     1.0000     .00000    
+Departure from Dehradun.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Runway Clearance Wait Jaipur.Queue.NumberI  .00000     (Insuf)    .00000     .00000     .00000    
+Parking in Dehra Dun.Queue.NumberInQueue    10.121     (Insuf)    .00000     14.000     14.000    
+Departure from Chandigarh.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Counter 1                                       181  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Departure from Jaipur Accum Wait Time       .00000    
+Runway 15 by 33 Accum VA Time               .45028    
+Parking in Chandigarh Accum Wait Time       332.23    
+Runway Chandigarh Accum VA Time             3.5217    
+Runway 15 by 33 Number In                   10.000    
+Departure from Dehradun Accum Wait Time     .00000    
+Parking in Chandigarh Accum VA Time         23.829    
+Runway 15 by 33 Number Out                  10.000    
+Parking in Chandigarh Number In             69.000    
+Parking in Jaipur Number Out                56.000    
+Departure from Chandigarh Number Out        48.000    
+Parking in Chandigarh Number Out            48.000    
+Departure from Dehradun Number Out          46.000    
+Parking in Jaipur Number In                 85.000    
+Departure from Chandigarh Number In         48.000    
+Departure from Dehradun Number In           46.000    
+Parking in Dehra Dun Accum VA Time          23.181    
+Runway 8 by 26 Number Out                   61.000    
+Runway 9 by 27 Number Out                   75.000    
+Runway 8 by 26 Number In                    61.000    
+Runway 9 by 27 Number In                    75.000    
+Parking in Jaipur Accum VA Time             23.131    
+Parking in Dehra Dun Accum Wait Time        191.70    
+Parking in Dehra Dun Number Out             46.000    
+Departure from Chandigarh Accum Wait Time   .00000    
+Departure from Dehradun Accum VA Time       2.4650    
+Runway 8 by 26 Accum VA Time                3.0667    
+Runway 9 by 27 Accum VA Time                3.6076    
+Departure from Jaipur Number In             56.000    
+Runway Chandigarh Accum Wait Time           .44665    
+Departure from Jaipur Number Out            56.000    
+Runway 8 by 26 Accum Wait Time              .29479    
+Runway 9 by 27 Accum Wait Time              .00000    
+Departure from Jaipur Accum VA Time         2.7529    
+Runway 15 by 33 Accum Wait Time             .03215    
+Departure from Chandigarh Accum VA Time     2.4803    
+Parking in Dehra Dun Number In              61.000    
+Parking in Jaipur Accum Wait Time           213.25    
+Runway Chandigarh Number Out                69.000    
+Runway Chandigarh Number In                 69.000    
+airplane.NumberIn                           262.00    
+airplane.NumberOut                          150.00    
+Runway 8by26.NumberSeized                   107.00    
+Runway 8by26.ScheduledUtilization           .23049    
+Runway 9by27.NumberSeized                   75.000    
+Runway 9by27.ScheduledUtilization           .15032    
+Parking Lot Chandigarh.NumberSeized         49.000    
+Parking Lot Chandigarh.ScheduledUtilizatio  .99742    
+runway chandigarh.NumberSeized              117.00    
+runway chandigarh.ScheduledUtilization      .25009    
+Runway 3by66 chandigarh.NumberSeized        .00000    
+Runway 3by66 chandigarh.ScheduledUtilizati  .00000    
+Runway 15by33.NumberSeized                  66.000    
+Runway 15by33.ScheduledUtilization          .13347    
+Parking Lot.NumberSeized                    57.000    
+Parking Lot.ScheduledUtilization            .97242    
+Parking Lot dehradun.NumberSeized           47.000    
+Parking Lot dehradun.ScheduledUtilization   .97419    
+System.NumberOut                            300.00    
+
+Beginning replication 9 of 30
+SIMAN Run Controller.
+
+7.2465325 Hours>
+                                      ARENA Simulation Results
+                                  Shashank Sundi - License: STUDENT
+
+                                  Summary for Replication 9 of 30
+
+Project: Delhi Flight Diversion Strategy                             Run execution date : 4/ 1/2022
+Analyst: Shashank Sundi                                              Model revision date: 4/ 1/2022
+
+Replication ended at time      : 7.2465325 Hours (Sunday, March 27, 2022, 04:21:26)
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Departure from Jaipur.VATimePerEntity       .05313     (Insuf)    .02803     .07733         13    
+Runway Chandigarh.WaitTimePerEntity         .00425     (Insuf)    .00000     .03844         34    
+Runway 15 by 33.WaitTimePerEntity           .00000     (Insuf)    .00000     .00000          3    
+Departure from Chandigarh.VATimePerEntity   .05081     (Insuf)    .02130     .07834         13    
+Departure from Dehradun.WaitTimePerEntity   .00000     (Insuf)    .00000     .00000         13    
+Departure from Jaipur.TotalTimePerEntity    .05313     (Insuf)    .02803     .07733         13    
+Departure from Dehradun.TotalTimePerEntity  .04930     (Insuf)    .02664     .07471         13    
+Parking in Jaipur.WaitTimePerEntity         .02971     (Insuf)    .00000     .38617         13    
+Parking in Jaipur.VATimePerEntity           .41316     (Insuf)    .37303     .46093         13    
+Parking in Chandigarh.WaitTimePerEntity     2.2820     (Insuf)    .00000     4.6944         13    
+Parking in Jaipur.TotalTimePerEntity        .44287     (Insuf)    .37303     .76976         13    
+Runway Chandigarh.TotalTimePerEntity        .05129     (Insuf)    .02192     .09054         34    
+Parking in Chandigarh.VATimePerEntity       .52628     (Insuf)    .37485     .61958         13    
+Parking in Chandigarh.TotalTimePerEntity    2.8083     (Insuf)    .37485     5.3140         13    
+Runway 8 by 26.WaitTimePerEntity            .00342     (Insuf)    .00000     .05023         27    
+Runway 9 by 27.WaitTimePerEntity            .00000     (Insuf)    .00000     .00000         17    
+Parking in Dehra Dun.WaitTimePerEntity      .66482     (Insuf)    .00000     2.1217         13    
+Runway 15 by 33.TotalTimePerEntity          .05416     (Insuf)    .02852     .07250          3    
+Parking in Dehra Dun.TotalTimePerEntity     1.1135     (Insuf)    .36854     2.6623         13    
+Departure from Chandigarh.WaitTimePerEntit  .00000     (Insuf)    .00000     .00000         13    
+Tally 1                                     1.5082     (Insuf)    .02192     6.0621         65    
+Parking in Dehra Dun.VATimePerEntity        .44870     (Insuf)    .36854     .59142         13    
+Runway 8 by 26.VATimePerEntity              .04637     (Insuf)    .02227     .07410         27    
+Runway 9 by 27.VATimePerEntity              .05158     (Insuf)    .02729     .07395         17    
+Runway Chandigarh.VATimePerEntity           .04704     (Insuf)    .02192     .06987         34    
+Departure from Dehradun.VATimePerEntity     .04930     (Insuf)    .02664     .07471         13    
+Runway 8 by 26.TotalTimePerEntity           .04979     (Insuf)    .02227     .09260         27    
+Runway 9 by 27.TotalTimePerEntity           .05158     (Insuf)    .02729     .07395         17    
+Departure from Jaipur.WaitTimePerEntity     .00000     (Insuf)    .00000     .00000         13    
+Departure from Chandigarh.TotalTimePerEnti  .05081     (Insuf)    .02130     .07834         13    
+Runway 15 by 33.VATimePerEntity             .05416     (Insuf)    .02852     .07250          3    
+airplane.VATime                             .27986     (Insuf)    .00000     .72217         78    
+airplane.NVATime                            .00000     (Insuf)    .00000     .00000         78    
+airplane.WaitTime                           .49823     (Insuf)    .00000     4.6944         78    
+airplane.TranTime                           .00000     (Insuf)    .00000     .00000         78    
+airplane.OtherTime                          .00000     (Insuf)    .00000     .00000         78    
+airplane.TotalTime                          1.5561     (Insuf)    .43273     5.3852         78    
+Runway 15 by 33.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          3    
+Parking in Chandigarh.Queue.WaitingTime     2.4895     (Insuf)    .00000     5.1860         14    
+Parking in Jaipur.Queue.WaitingTime         .05877     (Insuf)    .00000     .43654         14    
+Runway Clearance Wait Chandigarh.Queue.Wai  7.0784E-04 (Insuf)    .00000     .00613         13    
+Fly in Air till Parking and Runway is clea      --         --         --         --          0
+Departure from Jaipur.Queue.WaitingTime     .00000     (Insuf)    .00000     .00000         13    
+Runway 8 by 26.Queue.WaitingTime            .00342     (Insuf)    .00000     .05023         27    
+Runway 9 by 27.Queue.WaitingTime            .00000     (Insuf)    .00000     .00000         18    
+Runway Chandigarh.Queue.WaitingTime         .00425     (Insuf)    .00000     .03844         34    
+Runway Clearance wait Dehradun.Queue.Waiti  .00600     (Insuf)    .00000     .05971         13    
+Departure from Dehradun.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000         13    
+Runway Clearance Wait Jaipur.Queue.Waiting  .00202     (Insuf)    .00000     .02621         13    
+Parking in Dehra Dun.Queue.WaitingTime      .79964     (Insuf)    .00000     2.5523         14    
+Departure from Chandigarh.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         13    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+airplane.WIP                                23.372     (Insuf)    .00000     43.000     43.000    
+Runway 8by26.NumberBusy                     .26120     (Insuf)    .00000     1.0000     .00000    
+Runway 8by26.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Runway 8by26.Utilization                    .26120     (Insuf)    .00000     1.0000     .00000    
+Runway 9by27.NumberBusy                     .12600     (Insuf)    .00000     1.0000     1.0000    
+Runway 9by27.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Runway 9by27.Utilization                    .12600     (Insuf)    .00000     1.0000     1.0000    
+Parking Lot Chandigarh.NumberBusy           .99516     (Insuf)    .00000     1.0000     1.0000    
+Parking Lot Chandigarh.NumberScheduled      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Parking Lot Chandigarh.Utilization          .99516     (Insuf)    .00000     1.0000     1.0000    
+runway chandigarh.NumberBusy                .31187     (Insuf)    .00000     1.0000     .00000    
+runway chandigarh.NumberScheduled           1.0000     (Insuf)    1.0000     1.0000     1.0000    
+runway chandigarh.Utilization               .31187     (Insuf)    .00000     1.0000     .00000    
+Runway 3by66 chandigarh.NumberBusy          .00000     (Insuf)    .00000     .00000     .00000    
+Runway 3by66 chandigarh.NumberScheduled     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Runway 3by66 chandigarh.Utilization         .00000     (Insuf)    .00000     .00000     .00000    
+Runway 15by33.NumberBusy                    .11774     (Insuf)    .00000     1.0000     .00000    
+Runway 15by33.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Runway 15by33.Utilization                   .11774     (Insuf)    .00000     1.0000     .00000    
+Parking Lot.NumberBusy                      .79525     (Insuf)    .00000     1.0000     1.0000    
+Parking Lot.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Parking Lot.Utilization                     .79525     (Insuf)    .00000     1.0000     1.0000    
+Parking Lot dehradun.NumberBusy             .82445     (Insuf)    .00000     1.0000     1.0000    
+Parking Lot dehradun.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Parking Lot dehradun.Utilization            .82445     (Insuf)    .00000     1.0000     1.0000    
+Runway 15 by 33.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Parking in Chandigarh.Queue.NumberInQueue   15.217     (Insuf)    .00000     21.000     20.000    
+Parking in Jaipur.Queue.NumberInQueue       .41334     (Insuf)    .00000     6.0000     6.0000    
+Runway Clearance Wait Chandigarh.Queue.Num  .00127     (Insuf)    .00000     1.0000     .00000    
+Fly in Air till Parking and Runway is clea  .00000     (Insuf)    .00000     .00000     .00000    
+Departure from Jaipur.Queue.NumberInQueue   .00000     (Insuf)    .00000     .00000     .00000    
+Runway 8 by 26.Queue.NumberInQueue          .01276     (Insuf)    .00000     1.0000     .00000    
+Runway 9 by 27.Queue.NumberInQueue          .00000     (Insuf)    .00000     .00000     .00000    
+Runway Chandigarh.Queue.NumberInQueue       .01994     (Insuf)    .00000     1.0000     .00000    
+Runway Clearance wait Dehradun.Queue.Numbe  .01076     (Insuf)    .00000     1.0000     .00000    
+Departure from Dehradun.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Runway Clearance Wait Jaipur.Queue.NumberI  .00362     (Insuf)    .00000     1.0000     .00000    
+Parking in Dehra Dun.Queue.NumberInQueue    4.2614     (Insuf)    .00000     13.000     13.000    
+Departure from Chandigarh.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Counter 1                                        11  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Departure from Jaipur Accum Wait Time       .00000    
+Runway 15 by 33 Accum VA Time               .16248    
+Parking in Chandigarh Accum Wait Time       29.667    
+Runway Chandigarh Accum VA Time             1.5994    
+Runway 15 by 33 Number In                   3.0000    
+Departure from Dehradun Accum Wait Time     .00000    
+Parking in Chandigarh Accum VA Time         6.8416    
+Runway 15 by 33 Number Out                  3.0000    
+Parking in Chandigarh Number In             34.000    
+Parking in Jaipur Number Out                13.000    
+Departure from Chandigarh Number Out        13.000    
+Parking in Chandigarh Number Out            13.000    
+Departure from Dehradun Number Out          13.000    
+Parking in Jaipur Number In                 20.000    
+Departure from Chandigarh Number In         13.000    
+Departure from Dehradun Number In           13.000    
+Parking in Dehra Dun Accum VA Time          5.8330    
+Runway 8 by 26 Number Out                   27.000    
+Runway 9 by 27 Number Out                   17.000    
+Runway 8 by 26 Number In                    27.000    
+Runway 9 by 27 Number In                    18.000    
+Parking in Jaipur Accum VA Time             5.3711    
+Parking in Dehra Dun Accum Wait Time        8.6426    
+Parking in Dehra Dun Number Out             13.000    
+Departure from Chandigarh Accum Wait Time   .00000    
+Departure from Dehradun Accum VA Time       .64089    
+Runway 8 by 26 Accum VA Time                1.2519    
+Runway 9 by 27 Accum VA Time                .87686    
+Departure from Jaipur Number In             13.000    
+Runway Chandigarh Accum Wait Time           .14447    
+Departure from Jaipur Number Out            13.000    
+Runway 8 by 26 Accum Wait Time              .09247    
+Runway 9 by 27 Accum Wait Time              .00000    
+Departure from Jaipur Accum VA Time         .69072    
+Runway 15 by 33 Accum Wait Time             .00000    
+Departure from Chandigarh Accum VA Time     .66058    
+Parking in Dehra Dun Number In              27.000    
+Parking in Jaipur Accum Wait Time           .38617    
+Runway Chandigarh Number Out                34.000    
+Runway Chandigarh Number In                 34.000    
+airplane.NumberIn                           82.000    
+airplane.NumberOut                          39.000    
+Runway 8by26.NumberSeized                   40.000    
+Runway 8by26.ScheduledUtilization           .26120    
+Runway 9by27.NumberSeized                   18.000    
+Runway 9by27.ScheduledUtilization           .12600    
+Parking Lot Chandigarh.NumberSeized         14.000    
+Parking Lot Chandigarh.ScheduledUtilizatio  .99516    
+runway chandigarh.NumberSeized              47.000    
+runway chandigarh.ScheduledUtilization      .31187    
+Runway 3by66 chandigarh.NumberSeized        .00000    
+Runway 3by66 chandigarh.ScheduledUtilizati  .00000    
+Runway 15by33.NumberSeized                  16.000    
+Runway 15by33.ScheduledUtilization          .11774    
+Parking Lot.NumberSeized                    14.000    
+Parking Lot.ScheduledUtilization            .79525    
+Parking Lot dehradun.NumberSeized           14.000    
+Parking Lot dehradun.ScheduledUtilization   .82445    
+System.NumberOut                            78.000    
+
